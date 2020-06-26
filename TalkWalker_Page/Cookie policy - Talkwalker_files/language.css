@@ -1,0 +1,225 @@
+/*
+* Language styles
+* I have split this out to make it easier to itegrate back into your main stylesheets
+*/
+
+
+.tw-nav .lang-overlay {
+	color: white;
+	overflow-y: auto;
+	display: none;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition: all 0ms;
+	-moz-transition: all 0ms;
+	-o-transition: all 0ms;
+	transition: all 0ms;
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	transform: scale(1);
+	z-index: -9999;
+	position: fixed;
+	top: 51px;
+	left: 0;
+	width: 100%;
+	height: calc(100% - 51px);
+	background: rgba(16,26,53,0.6);
+}
+
+.tw-nav .lang-overlay .overlay-close {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 20px;
+	height: 20px;
+	z-index: 10;
+	cursor: pointer;
+}
+
+.tw-nav .lang-overlay .overlay-close span {
+	display: none;
+	font-family: 'Forno-m',"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 100%;
+	color: white;
+	text-transform: none;
+	text-align: left;
+	letter-spacing: normal;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.tw-nav .lang-overlay .overlay-close:after {
+	font-family: 'apart-tw' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content: "\e918";
+	font-size: 20px;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	-webkit-transition: all 250ms;
+	-moz-transition: all 250ms;
+	-o-transition: all 250ms;
+	transition: all 250ms;
+}
+
+.tw-nav .lang-overlay .overlay-close:hover:after {
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+
+.tw-nav .lang-overlay .overlay-content {
+	background: linear-gradient(180deg, #142B65 50%, #1A9EDA 325.41%);
+	padding: 0;
+}
+
+.tw-nav .lang-overlay .container {
+	width: 100%;
+	max-width: none;
+	padding: 0 20px;
+}
+
+.tw-nav .lang-overlay .overlay-title {
+	font-family: 'Forno-m',"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 100%;
+	color: white;
+	text-transform: none;
+	text-align: left;
+	letter-spacing: normal;
+	margin: 80px 0 40px;
+	text-transform: none;
+}
+
+.tw-nav .lang-overlay .overlay-title,
+.tw-nav .lang-overlay .overlay-description {
+	max-width: none;
+}
+
+.tw-nav .lang-overlay .overlay-description {
+	font-family: 'Forno-m',"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 23px;
+	text-align: left;
+	margin-top: 60px;
+	margin-bottom: 80px;
+}
+
+.tw-nav .lang-overlay .overlay-content .language-links {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.tw-nav .lang-overlay .overlay-content .lang-option {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	font-family: 'Forno-m',"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 100%;
+	letter-spacing: 0.05em;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 18px 32px;
+	text-decoration: none !important;
+	outline: none !important;
+	background-color: transparent;
+	color: #909CBB;
+	border: 1px solid transparent;
+	border-radius: 30px;
+	transition: background-color 0.3s, color 0.3s, border 0.3s;
+	position: relative;
+	overflow: hidden;
+	margin: 10px 10px 10px 0;
+}
+
+.tw-nav .lang-overlay .overlay-content .lang-option.active:after,
+.tw-nav .lang-overlay .overlay-content .lang-option:hover:after {
+	display: none;
+}
+
+.tw-nav .lang-overlay .overlay-content .lang-option.active,
+.tw-nav .lang-overlay .overlay-content .lang-option:hover {
+	border-color: white;
+	color: white;
+	background-color: transparent;
+}
+
+
+@media screen and (max-width: 768px){
+	.tw-nav .lang-overlay {
+		background: linear-gradient(180deg, #142B65 50%, #1A9EDA 325.41%);
+	}
+	.tw-nav .lang-overlay .overlay-content {
+		background: transparent;
+	}
+	.tw-nav .lang-overlay .overlay-content .lang-option {
+		width: 50%;
+		margin: 10px 0;
+	}
+	.tw-nav .lang-overlay .overlay-title {
+		margin-bottom: 60px;
+	}
+	.tw-nav .lang-overlay .overlay-description {
+		margin-top: 60px;
+	}
+}
+
+@media screen and (min-width: 1250px){
+	.tw-nav .lang-overlay .container {
+		padding: 0 80px;
+	}
+	.tw-nav .lang-overlay .overlay-close {
+		width: auto;
+		height: auto;
+		border: 1px solid white;
+		border-radius: 30px;
+		padding: 16px 64px 16px 32px;
+		right: 100px;
+		top: 34px;
+	}
+	.tw-nav .lang-overlay .overlay-close:after {
+		display: inline-block;
+		right: 24px;
+		top: 17px;
+	}
+	.tw-nav .lang-overlay .overlay-close span {
+		display: inline-block;
+	}
+	.tw-nav .lang-overlay .overlay-title {
+		font-size: 43px;
+		margin-top: 40px;
+		margin-bottom: 60px;
+	}
+	.tw-nav .lang-overlay .overlay-description {
+		margin-bottom: 80px;
+		font-size: 21px;
+		line-height: 30px;
+	}
+	.tw-nav .lang-overlay .overlay-content .language-links {
+		justify-content: space-between;
+	}
+
+}

@@ -1,0 +1,633 @@
+define([], {
+    "dates" : {
+        "d7": "d7"
+    },
+    "dynamic_data" : {
+        "twitter_share" : {
+            "code" : "TWITTER_SHARE"
+        },
+        "facebook_like" : {
+            "code" : "FACEBOOK_LIKE"
+        },
+        "facebook_share" : {
+            "code" : "FACEBOOK_SHARE"
+        },
+        "comment_count" : {
+            "code" : "COMMENT_COUNT"
+        }
+    },
+    "notification" : {
+        
+             "confirm" : "CONFIRM",
+        
+             "error" : "ERROR",
+        
+             "fatal" : "FATAL",
+        
+             "info" : "INFO",
+        
+             "success" : "SUCCESS",
+        
+             "warning" : "WARNING",
+        
+             "server_warning" : "SERVER_WARNING",
+        
+    },
+    "sub_type" : {
+        "youtube" : {
+            "code" : "YOUTUBE"
+        },
+        "twitter" : {
+            "code" : "TWITTER"
+        },
+        "facebook" : {
+            "code" : "FACEBOOK"
+        }
+    },
+    "sort_by" : {
+        "rank" : {
+            "code" : "s_rank"
+        },
+        "date" : {
+            "code" : "s_published"
+        },
+        "indexed" : {
+            "code" : "s_indexed"
+        },
+        "shares" : {
+            "code" : "s_shares"
+        },
+        "s_reach" : {
+            "code" : "s_reach"
+        },
+        "s_influence" : {
+            "code" : "s_influence"
+        }
+    },
+    "tags" : {
+        "sentiment" : {
+            "positive" : {
+                "code" : "us/positive",
+                "category" : "us",
+                "content" : "positive"
+            },
+            "negative" : {
+                "code" : "us/negative",
+                "category" : "us",
+                "content" : "negative"
+            },
+            "neutral" : {
+                "code" : "us/neutral",
+                "category" : "us",
+                "content" : "neutral"
+            }
+        },
+        "marking" : {
+            "important" : {
+                "code" : "um/important",
+                "category" : "um",
+                "content" : "important"
+            },
+            "read" : {
+                "code" : "pc/read",
+                "category" : "pc",
+                "content" : "read"
+            },
+            "checked" : {
+                "code" : "pc/checked",
+                "category" : "pc",
+                "content" : "checked"
+            },
+            "replied" : {
+                "code" : "pc/replied",
+                "category" : "pc",
+                "content" : "replied"
+            }
+        }
+    },
+    "topic_entry" : {
+        "selected" : {
+            "none" : "NONE",
+            "node" : "NODE",
+            "children" : "CHILDREN",
+            "children_recursive" : "CHILDREN_RECURSIVE"
+        },
+        "visibility" : {
+            
+                "not_visible" : "NOT_VISIBLE",
+            
+                "visible" : "VISIBLE",
+            
+                "never_visible" : "NEVER_VISIBLE",
+            
+                "visible_any_time" : "VISIBLE_ANY_TIME",
+            
+        },
+        "select_type" : {
+            
+                "none" : "NONE",
+            
+                "single" : "SINGLE",
+            
+                "multiple" : "MULTIPLE",
+            
+                "single_and_multiple" : "SINGLE_AND_MULTIPLE",
+            
+                "opposite" : "OPPOSITE",
+            
+                "topic_pm_composed_selection" : "TOPIC_PM_COMPOSED_SELECTION",
+            
+                "topic_pm_composed_selection_mixed" : "TOPIC_PM_COMPOSED_SELECTION_MIXED",
+            
+                "multiple_inverted" : "MULTIPLE_INVERTED",
+            
+                "single_or_multiple" : "SINGLE_OR_MULTIPLE",
+            
+        },
+        "breakline" : {
+        	
+                "no_breakline" : "NO_BREAKLINE",
+            
+                "solid_line" : "SOLID_LINE",
+            
+        }
+    },
+    "topic_menu" : {
+        TYPE : {
+            
+                "topic" : "TOPIC",
+            
+                "page_monitoring" : "PAGE_MONITORING",
+            
+                "filter" : "FILTER",
+            
+                "dashboard" : "DASHBOARD",
+            
+                "tags" : "TAGS",
+            
+                "media_type" : "MEDIA_TYPE",
+            
+                "languages" : "LANGUAGES",
+            
+                "countries" : "COUNTRIES",
+            
+                "source" : "SOURCE",
+            
+                "time_filter" : "TIME_FILTER",
+            
+                "important" : "IMPORTANT",
+            
+                "sentiment" : "SENTIMENT",
+            
+                "settings_menu" : "SETTINGS_MENU",
+            
+                "access_level" : "ACCESS_LEVEL",
+            
+                "influenstar" : "INFLUENSTAR",
+            
+                "allowed_dashboard_page" : "ALLOWED_DASHBOARD_PAGE",
+            
+                "allowed_monitor_page" : "ALLOWED_MONITOR_PAGE",
+            
+                "allowed_settings_page" : "ALLOWED_SETTINGS_PAGE",
+            
+                "time_zone" : "TIME_ZONE",
+            
+                "application_languages" : "APPLICATION_LANGUAGES",
+            
+                "date_format" : "DATE_FORMAT",
+            
+                "source_panel" : "SOURCE_PANEL",
+            
+                "allowed_monitor_page_compare" : "ALLOWED_MONITOR_PAGE_COMPARE",
+            
+                "time_axis_options" : "TIME_AXIS_OPTIONS",
+            
+                "compatible_data_types" : "COMPATIBLE_DATA_TYPES",
+            
+                "export" : "EXPORT",
+            
+                "share" : "SHARE",
+            
+                "map_zoom" : "MAP_ZOOM",
+            
+                "event" : "EVENT",
+            
+                "dashboard_actions" : "DASHBOARD_ACTIONS",
+            
+                "alert_trigger_results" : "ALERT_TRIGGER_RESULTS",
+            
+                "alert_trigger_time_unit" : "ALERT_TRIGGER_TIME_UNIT",
+            
+                "alert_format" : "ALERT_FORMAT",
+            
+                "alert_trigger_type" : "ALERT_TRIGGER_TYPE",
+            
+                "page_export" : "PAGE_EXPORT",
+            
+                "gender" : "GENDER",
+            
+                "week_days" : "WEEK_DAYS",
+            
+                "map_display" : "MAP_DISPLAY",
+            
+                "export_complete" : "EXPORT_COMPLETE",
+            
+                "number_results" : "NUMBER_RESULTS",
+            
+                "group" : "GROUP",
+            
+                "author_source" : "AUTHOR_SOURCE",
+            
+                "newsletter_actions" : "NEWSLETTER_ACTIONS",
+            
+                "days_of_week" : "DAYS_OF_WEEK",
+            
+                "hours_of_day" : "HOURS_OF_DAY",
+            
+                "custom_page" : "CUSTOM_PAGE",
+            
+                "sort" : "SORT",
+            
+                "workflow_tags" : "WORKFLOW_TAGS",
+            
+                "widget_view_width" : "WIDGET_VIEW_WIDTH",
+            
+                "widget_dashboard_ordering" : "WIDGET_DASHBOARD_ORDERING",
+            
+                "news_letter" : "NEWS_LETTER",
+            
+                "navbar_settings_menu" : "NAVBAR_SETTINGS_MENU",
+            
+                "csv_separator" : "CSV_SEPARATOR",
+            
+                "post_type" : "POST_TYPE",
+            
+                "activity_type" : "ACTIVITY_TYPE",
+            
+                "keyboard_layout" : "KEYBOARD_LAYOUT",
+            
+                "hashtag" : "HASHTAG",
+            
+                "expertise" : "EXPERTISE",
+            
+                "industry" : "INDUSTRY",
+            
+                "colors" : "COLORS",
+            
+                "dashboard_overwrite_actions" : "DASHBOARD_OVERWRITE_ACTIONS",
+            
+                "refresh_period" : "REFRESH_PERIOD",
+            
+                "output_type" : "OUTPUT_TYPE",
+            
+                "company_size" : "COMPANY_SIZE",
+            
+                "position_title" : "POSITION_TITLE",
+            
+                "alert" : "ALERT",
+            
+                "report" : "REPORT",
+            
+                "hidden_tags" : "HIDDEN_TAGS",
+            
+                "user_defined_media_types" : "USER_DEFINED_MEDIA_TYPES",
+            
+                "deleted_results_option" : "DELETED_RESULTS_OPTION",
+            
+                "data_set" : "DATA_SET",
+            
+                "allowed_report_page" : "ALLOWED_REPORT_PAGE",
+            
+                "report_history" : "REPORT_HISTORY",
+            
+                "report_output_type" : "REPORT_OUTPUT_TYPE",
+            
+                "report_actions" : "REPORT_ACTIONS",
+            
+                "mailing_list" : "MAILING_LIST",
+            
+                "text_widget_layout" : "TEXT_WIDGET_LAYOUT",
+            
+                "branding_receive_notifications" : "BRANDING_RECEIVE_NOTIFICATIONS",
+            
+                "dashboard_template_allowed_page" : "DASHBOARD_TEMPLATE_ALLOWED_PAGE",
+            
+                "topic_pm_composed" : "TOPIC_PM_COMPOSED",
+            
+                "charset" : "CHARSET",
+            
+                "time_format" : "TIME_FORMAT",
+            
+                "dashboard_template_categories" : "DASHBOARD_TEMPLATE_CATEGORIES",
+            
+                "geodata_precision_types" : "GEODATA_PRECISION_TYPES",
+            
+                "half_hours" : "HALF_HOURS",
+            
+                "full_hours" : "FULL_HOURS",
+            
+                "named_entity_types" : "NAMED_ENTITY_TYPES",
+            
+                "predefined_filters" : "PREDEFINED_FILTERS",
+            
+                "number_format" : "NUMBER_FORMAT",
+            
+                "breakdown_options" : "BREAKDOWN_OPTIONS",
+            
+                "content" : "CONTENT",
+            
+                "generator_device" : "GENERATOR_DEVICE",
+            
+                "alert_smart_spike_level" : "ALERT_SMART_SPIKE_LEVEL",
+            
+                "theme_options" : "THEME_OPTIONS",
+            
+                "view_mode_options" : "VIEW_MODE_OPTIONS",
+            
+                "timefilter_mode_options" : "TIMEFILTER_MODE_OPTIONS",
+            
+                "search_mode_options" : "SEARCH_MODE_OPTIONS",
+            
+                "content_contains_type" : "CONTENT_CONTAINS_TYPE",
+            
+                "theme_filters" : "THEME_FILTERS",
+            
+                "result_rule_action" : "RESULT_RULE_ACTION",
+            
+                "result_rule" : "RESULT_RULE",
+            
+                "score_tags" : "SCORE_TAGS",
+            
+                "mention_type" : "MENTION_TYPE",
+            
+                "theme_tree_bubble_size" : "THEME_TREE_BUBBLE_SIZE",
+            
+                "start_day_of_week" : "START_DAY_OF_WEEK",
+            
+                "allowed_search_advanced_page" : "ALLOWED_SEARCH_ADVANCED_PAGE",
+            
+                "pmg_publication_issue" : "PMG_PUBLICATION_ISSUE",
+            
+                "pmg_source_brandgroup" : "PMG_SOURCE_BRANDGROUP",
+            
+                "pmg_source_distribution_type" : "PMG_SOURCE_DISTRIBUTION_TYPE",
+            
+                "custom_entities" : "CUSTOM_ENTITIES",
+            
+                "branding_hide_logout" : "BRANDING_HIDE_LOGOUT",
+            
+                "pmg_publication_unit" : "PMG_PUBLICATION_UNIT",
+            
+                "enforced_users" : "ENFORCED_USERS",
+            
+                "settings_access_entities" : "SETTINGS_ACCESS_ENTITIES",
+            
+                "external_data" : "EXTERNAL_DATA",
+            
+                "widget_animation" : "WIDGET_ANIMATION",
+            
+                "page_categories" : "PAGE_CATEGORIES",
+            
+                "pmg_deduplication" : "PMG_DEDUPLICATION",
+            
+                "named_entity_sources" : "NAMED_ENTITY_SOURCES",
+            
+                "media_topics" : "MEDIA_TOPICS",
+            
+                "export_share" : "EXPORT_SHARE",
+            
+                "users" : "USERS",
+            
+                "axis_type" : "AXIS_TYPE",
+            
+                "comment_display_type" : "COMMENT_DISPLAY_TYPE",
+            
+                "hourly_frequency" : "HOURLY_FREQUENCY",
+            
+                "translation_target_language" : "TRANSLATION_TARGET_LANGUAGE",
+            
+                "visual_entity_type" : "VISUAL_ENTITY_TYPE",
+            
+                "fi_activity_type" : "FI_ACTIVITY_TYPE",
+            
+                "demographics_audience_type" : "DEMOGRAPHICS_AUDIENCE_TYPE",
+            
+                "select_search_data_function_type" : "SELECT_SEARCH_DATA_FUNCTION_TYPE",
+            
+                "access_option" : "ACCESS_OPTION",
+            
+                "command_center" : "COMMAND_CENTER",
+            
+                "screen_resolution" : "SCREEN_RESOLUTION",
+            
+                "command_center_actions" : "COMMAND_CENTER_ACTIONS",
+            
+                "stylesheets" : "STYLESHEETS",
+            
+                "demographics_and_gender" : "DEMOGRAPHICS_AND_GENDER",
+            
+                "legend_type" : "LEGEND_TYPE",
+            
+                "legend_position" : "LEGEND_POSITION",
+            
+                "font_size" : "FONT_SIZE",
+            
+                "ages" : "AGES",
+            
+                "custom_time_filter" : "CUSTOM_TIME_FILTER",
+            
+                "contact_entities" : "CONTACT_ENTITIES",
+            
+                "web_connector" : "WEB_CONNECTOR",
+            
+                "seniority" : "SENIORITY",
+            
+                "job_function" : "JOB_FUNCTION",
+            
+                "company_sizes" : "COMPANY_SIZES",
+            
+                "industries" : "INDUSTRIES",
+            
+                "source_panel_group" : "SOURCE_PANEL_GROUP",
+            
+                "coloring_options" : "COLORING_OPTIONS",
+            
+                "dashboard_cloning" : "DASHBOARD_CLONING",
+            
+                "source_geo" : "SOURCE_GEO",
+            
+                "report_output_type_and_templates" : "REPORT_OUTPUT_TYPE_AND_TEMPLATES",
+            
+                "theme_sampling_mode" : "THEME_SAMPLING_MODE",
+            
+                "influencer_campaign" : "INFLUENCER_CAMPAIGN",
+            
+                "influencer_list" : "INFLUENCER_LIST",
+            
+                "applications_modules" : "APPLICATIONS_MODULES",
+            
+                "issue_watchlist" : "ISSUE_WATCHLIST",
+            
+                "issue_tracker_brand" : "ISSUE_TRACKER_BRAND",
+            
+                "issue_tracker_issue" : "ISSUE_TRACKER_ISSUE",
+            
+                "data_coverage" : "DATA_COVERAGE",
+            
+                "adobe_referrer_types" : "ADOBE_REFERRER_TYPES",
+            
+                "obsolete_query_modifier" : "OBSOLETE_QUERY_MODIFIER",
+            
+                "ii_activity_type" : "II_ACTIVITY_TYPE",
+            
+                "influencer_labels" : "INFLUENCER_LABELS",
+            
+                "audit_logs_projects_menu" : "AUDIT_LOGS_PROJECTS_MENU",
+            
+                "cluster_labels" : "CLUSTER_LABELS",
+            
+                "near_filter" : "NEAR_FILTER",
+            
+        }, 
+        "behaviour" : {
+            "and" : "AND_STRATEGY",
+            "or" : "OR_STRATEGY"
+        },
+        "select_type" : {
+             
+                "none" : "NONE",
+            
+                "single" : "SINGLE",
+            
+                "multiple" : "MULTIPLE",
+            
+                "single_and_multiple" : "SINGLE_AND_MULTIPLE",
+            
+                "opposite" : "OPPOSITE",
+            
+                "topic_pm_composed_selection" : "TOPIC_PM_COMPOSED_SELECTION",
+            
+                "topic_pm_composed_selection_mixed" : "TOPIC_PM_COMPOSED_SELECTION_MIXED",
+            
+                "multiple_inverted" : "MULTIPLE_INVERTED",
+            
+                "single_or_multiple" : "SINGLE_OR_MULTIPLE",
+            
+        },
+        "pinned_type" : {
+            
+                "none" : "NONE",
+            
+                "topic_pm_composed" : "TOPIC_PM_COMPOSED",
+            
+                "filter" : "FILTER",
+            
+                "countries" : "COUNTRIES",
+            
+                "influenstars" : "INFLUENSTARS",
+            
+                "languages" : "LANGUAGES",
+            
+                "media_types" : "MEDIA_TYPES",
+            
+                "sentiments" : "SENTIMENTS",
+            
+                "searchbar" : "SEARCHBAR",
+            
+                "source_panels" : "SOURCE_PANELS",
+            
+                "tags" : "TAGS",
+            
+                "time_filter" : "TIME_FILTER",
+            
+                "workflow_tags" : "WORKFLOW_TAGS",
+            
+                "entity_types" : "ENTITY_TYPES",
+            
+                "predefined_filters" : "PREDEFINED_FILTERS",
+            
+                "post_types" : "POST_TYPES",
+            
+                "generator_devices" : "GENERATOR_DEVICES",
+            
+                "content_contains_types" : "CONTENT_CONTAINS_TYPES",
+            
+                "score_tags" : "SCORE_TAGS",
+            
+                "near_filter" : "NEAR_FILTER",
+            
+                "mention_types" : "MENTION_TYPES",
+            
+                "pmg_publication_issue" : "PMG_PUBLICATION_ISSUE",
+            
+                "pmg_source_brandgroup" : "PMG_SOURCE_BRANDGROUP",
+            
+                "pmg_source_distribution_type" : "PMG_SOURCE_DISTRIBUTION_TYPE",
+            
+                "pmg_publication_unit" : "PMG_PUBLICATION_UNIT",
+            
+                "custom_entities" : "CUSTOM_ENTITIES",
+            
+                "pmg_deduplication" : "PMG_DEDUPLICATION",
+            
+                "media_topics" : "MEDIA_TOPICS",
+            
+                "visual_themes" : "VISUAL_THEMES",
+            
+                "demographics_type" : "DEMOGRAPHICS_TYPE",
+            
+                "demographics_and_gender_type" : "DEMOGRAPHICS_AND_GENDER_TYPE",
+            
+                "campaign_type" : "CAMPAIGN_TYPE",
+            
+                "influencer_list_type" : "INFLUENCER_LIST_TYPE",
+            
+        }
+    },
+    "source_context" : {
+        
+            "account" : "account",
+        
+            "project" : "project",
+        
+            "none" : "none",
+        
+            "user" : "user",
+        
+    },
+    "messages" : {
+        "_512943" : 'Unknown error. Please retry the operation or contact support if the problem persists.',
+        "_975124" : 'Upload File',
+        "_751409" : 'Upload Image'
+    },
+    "toggle" : {
+        "on_off" : {
+            "type" : "on_off",
+            "disabled" : "OFF",
+            "enabled" : "ON"
+        },
+        "yes_no" : {
+            "type" : "yes_no",
+            "disabled" : "NO",
+            "enabled" : "YES"
+        },
+        "show_hide" : {
+            "type" : "show_hide",
+            "disabled" : "HIDE",
+            "enabled" : "SHOW"
+        }
+    },
+    "tree_select" : {
+        "none" : {
+            "default" : "None",
+            "NAMED_ENTITY_TYPES" : "Don&#x27;t show any smart themes",
+            "PREDEFINED_FILTERS" : "Don&#x27;t show any smart filters"
+        }
+    },
+    "event" : {
+        "btn" : {
+            "upload_click" : "EVENT.BTN.UPLOAD_CLICK"
+        }
+    }
+});

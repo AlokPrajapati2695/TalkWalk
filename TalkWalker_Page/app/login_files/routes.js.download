@@ -1,0 +1,327 @@
+var routes = {}; (function(_root){
+var _nS = function(c,f,b){var e=c.split(f||"."),g=b||_root,d,a;for(d=0,a=e.length;d<a;d++){g=g[e[d]]=g[e[d]]||{}}return g}
+var _qS = function(items){var qs = ''; for(var i=0;i<items.length;i++) {if(items[i]) qs += (qs ? '&' : '') + items[i]}; return qs ? ('?' + qs) : ''}
+var _s = function(p,s){return p+((s===true||(s&&s.secure))?'s':'')+'://'}
+var _wA = function(r){return {ajax:function(c){c=c||{};c.url=r.url;c.type=r.method;return jQuery.ajax(c)}, method:r.method,type:r.method,url:r.url,absoluteURL: function(s){return _s('http',s)+'app.talkwalker.com'+r.url},webSocketURL: function(s){return _s('ws',s)+'app.talkwalker.com'+r.url}}}
+_nS('controllers.tw.TopicSetup'); _root['controllers']['tw']['TopicSetup']['show'] = 
+        function(source,source_id) {
+          return _wA({method:"GET", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/topicSetup"})
+        }
+      ;
+_nS('controllers.tw.Page'); _root['controllers']['tw']['Page']['show'] = 
+        function(source,source_id) {
+        
+          if (source == "" && source_id == "") {
+            return _wA({method:"GET", url:"/app/" + "page"})
+          }
+        
+          if (true) {
+            return _wA({method:"GET", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/page"})
+          }
+        
+        }
+      ;
+_nS('controllers.tw.Sandbox'); _root['controllers']['tw']['Sandbox']['show'] = 
+        function(source,source_id) {
+          return _wA({method:"GET", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/sandbox"})
+        }
+      ;
+_nS('controllers.tw.PrintData'); _root['controllers']['tw']['PrintData']['render'] = 
+        function(source,source_id,url) {
+          return _wA({method:"GET", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/print/" + (function(k,v) {return v})("url", encodeURIComponent(url))})
+        }
+      ;
+_nS('controllers.tw.PrintData'); _root['controllers']['tw']['PrintData']['getAttachment'] = 
+        function(source,source_id,attachment_id) {
+          return _wA({method:"GET", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/attachment/" + (function(k,v) {return v})("attachment_id", encodeURIComponent(attachment_id))})
+        }
+      ;
+_nS('controllers.tw.PrintArticle'); _root['controllers']['tw']['PrintArticle']['renderArticle'] = 
+        function(source,source_id,url) {
+          return _wA({method:"GET", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/print_article/" + (function(k,v) {return v})("url", encodeURIComponent(url))})
+        }
+      ;
+_nS('controllers.tw.PrintArticle'); _root['controllers']['tw']['PrintArticle']['getArticleAttachment'] = 
+        function(source,source_id,attachment_id) {
+          return _wA({method:"GET", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/article_attachment/" + (function(k,v) {return v})("attachment_id", encodeURIComponent(attachment_id))})
+        }
+      ;
+_nS('controllers.tw.Monitor'); _root['controllers']['tw']['Monitor']['show'] = 
+        function(source,source_id) {
+          return _wA({method:"GET", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/monitor"})
+        }
+      ;
+_nS('controllers.tw.ExternalAuthentication'); _root['controllers']['tw']['ExternalAuthentication']['signin'] = 
+        function(source,source_id,clientName,type,userid,token,host,stateKey) {
+        
+          if (source == "none" && source_id == "" && userid == "" && token == "" && host == "" && stateKey == "") {
+            return _wA({method:"GET", url:"/app/" + "sma/signin" + _qS([(function(k,v) {return encodeURIComponent(k)+'='+encodeURIComponent(v)})("clientName", clientName), (function(k,v) {return encodeURIComponent(k)+'='+encodeURIComponent(v)})("type", type)])})
+          }
+        
+          if (stateKey == "") {
+            return _wA({method:"GET", url:"/app/" + "sma/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/signin/" + (function(k,v) {return v})("userid", encodeURIComponent(userid)) + "/" + (function(k,v) {return v})("token", encodeURIComponent(token)) + "/" + (function(k,v) {return v})("host", encodeURIComponent(host)) + _qS([(function(k,v) {return encodeURIComponent(k)+'='+encodeURIComponent(v)})("clientName", clientName), (function(k,v) {return encodeURIComponent(k)+'='+encodeURIComponent(v)})("type", type)])})
+          }
+        
+          if (true) {
+            return _wA({method:"GET", url:"/app/" + "sma/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/signin/" + (function(k,v) {return v})("userid", encodeURIComponent(userid)) + "/" + (function(k,v) {return v})("token", encodeURIComponent(token)) + "/" + (function(k,v) {return v})("host", encodeURIComponent(host)) + "/" + (function(k,v) {return v})("stateKey", encodeURIComponent(stateKey)) + _qS([(function(k,v) {return encodeURIComponent(k)+'='+encodeURIComponent(v)})("clientName", clientName), (function(k,v) {return encodeURIComponent(k)+'='+encodeURIComponent(v)})("type", type)])})
+          }
+        
+        }
+      ;
+_nS('controllers.tw.Images'); _root['controllers']['tw']['Images']['get'] = 
+        function(source,source_id,id) {
+          return _wA({method:"GET", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/image/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+        }
+      ;
+_nS('controllers.tw.TWRestForm'); _root['controllers']['tw']['TWRestForm']['post'] = 
+        function(source,source_id,form,action,id,category) {
+        
+          if (source == "none" && source_id == "" && form == "login" && action == "enable" && id == "" && category == "login") {
+            return _wA({method:"POST", url:"/app/" + "login"})
+          }
+        
+          if (source == "none" && source_id == "" && id == "" && category == "login") {
+            return _wA({method:"POST", url:"/app/" + "login/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action))})
+          }
+        
+          if (form == "logout" && action == "disable" && id == "" && category == "logout") {
+            return _wA({method:"POST", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/logout"})
+          }
+        
+          if (form == "external_authentication" && action == "new" && id == "" && category == "settings") {
+            return _wA({method:"POST", url:"/app/" + "sma/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/external_authentication"})
+          }
+        
+          if (source == "none" && source_id == "" && form == "update_project" && action == "update" && category == "rform") {
+            return _wA({method:"POST", url:"/app/" + "update_project/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+          }
+        
+          if (source == "none" && source_id == "" && id == "" && category == "rform") {
+            return _wA({method:"POST", url:"/app/" + "rform/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action))})
+          }
+        
+          if (source == "none" && source_id == "" && category == "rform") {
+            return _wA({method:"POST", url:"/app/" + "rform/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action)) + "/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+          }
+        
+          if (id == "" && category == "rform") {
+            return _wA({method:"POST", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/rform/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action))})
+          }
+        
+          if (category == "rform") {
+            return _wA({method:"POST", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/rform/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action)) + "/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+          }
+        
+          if (source == "none" && source_id == "" && id == "" && category == "settings") {
+            return _wA({method:"POST", url:"/app/" + "settings/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action))})
+          }
+        
+          if (source == "none" && source_id == "" && category == "settings") {
+            return _wA({method:"POST", url:"/app/" + "settings/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action)) + "/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+          }
+        
+          if (source_id == "" && id == "" && category == "settings") {
+            return _wA({method:"POST", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/settings/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action))})
+          }
+        
+          if (source_id == "" && category == "settings") {
+            return _wA({method:"POST", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/settings/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action)) + "/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+          }
+        
+          if (id == "" && category == "settings") {
+            return _wA({method:"POST", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/settings/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action))})
+          }
+        
+          if (category == "settings") {
+            return _wA({method:"POST", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/settings/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action)) + "/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+          }
+        
+          if (form == "basic_setup" && id == "" && category == "basic_setup") {
+            return _wA({method:"POST", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/basic_setup/" + (function(k,v) {return v})("action", encodeURIComponent(action))})
+          }
+        
+          if (form == "basic_setup" && category == "basic_setup") {
+            return _wA({method:"POST", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/basic_setup/" + (function(k,v) {return v})("action", encodeURIComponent(action)) + "/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+          }
+        
+        }
+      ;
+_nS('controllers.tw.TWRestForm'); _root['controllers']['tw']['TWRestForm']['get'] = 
+        function(source,source_id,form,action,id,category) {
+        
+          if (source == "none" && source_id == "" && form == "login" && action == "new" && id == "" && category == "login") {
+            return _wA({method:"GET", url:"/app/" + "login/connect"})
+          }
+        
+          if (source == "none" && source_id == "" && form == "login" && action == "navigate" && id == "" && category == "login") {
+            return _wA({method:"POST", url:"/app/" + "login/redirect"})
+          }
+        
+          if (source == "none" && source_id == "" && form == "login" && action == "remove" && id == "" && category == "login") {
+            return _wA({method:"GET", url:"/app/" + "login/disconnect"})
+          }
+        
+          if (source == "none" && source_id == "" && form == "login" && action == "admin" && id == "" && category == "login") {
+            return _wA({method:"GET", url:"/app/" + "login/admin"})
+          }
+        
+          if (source == "none" && source_id == "" && form == "sign_up" && action == "show" && id == "SEARCH" && category == "rform") {
+            return _wA({method:"GET", url:"/app/" + "signup_free"})
+          }
+        
+          if (form == "sign_up" && action == "show" && id == "ANALYTICS" && category == "rform") {
+            return _wA({method:"GET", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/signup_trial"})
+          }
+        
+          if (source == "none" && source_id == "" && form == "sign_up" && action == "show" && id == "ANALYTICS" && category == "rform") {
+            return _wA({method:"GET", url:"/app/" + "signup_trial"})
+          }
+        
+          if (source == "none" && source_id == "" && form == "demo" && action == "show" && id == "" && category == "rform") {
+            return _wA({method:"GET", url:"/app/" + "demo"})
+          }
+        
+          if (source == "none" && source_id == "" && form == "dns_check" && action == "info" && id == "" && category == "rform") {
+            return _wA({method:"GET", url:"/app/" + "dns_check"})
+          }
+        
+          if (source == "none" && source_id == "" && form == "context_data" && action == "show" && id == "" && category == "rform") {
+            return _wA({method:"GET", url:"/app/" + "assets/context_data.json"})
+          }
+        
+          if (form == "context_data" && action == "show" && id == "" && category == "rform") {
+            return _wA({method:"GET", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/assets/context_data.json"})
+          }
+        
+          if (source == "none" && source_id == "" && form == "unsubscribe" && action == "enable" && category == "rform") {
+            return _wA({method:"GET", url:"/app/" + "subscribe/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+          }
+        
+          if (source == "none" && source_id == "" && form == "unsubscribe" && action == "disable" && category == "rform") {
+            return _wA({method:"GET", url:"/app/" + "unsubscribe/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+          }
+        
+          if (source == "none" && source_id == "" && form == "confirm_alert_subscription" && action == "show" && category == "rform") {
+            return _wA({method:"GET", url:"/app/" + "confirm_alert_subscription/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+          }
+        
+          if (source == "none" && source_id == "" && form == "confirm_email" && action == "edit" && category == "rform") {
+            return _wA({method:"GET", url:"/app/" + "confirm_email/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+          }
+        
+          if (source == "none" && source_id == "" && form == "turn_off_notifications" && action == "disable" && category == "rform") {
+            return _wA({method:"GET", url:"/app/" + "no_notifications/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+          }
+        
+          if (source == "none" && source_id == "" && id == "" && category == "rform") {
+            return _wA({method:"GET", url:"/app/" + "rform/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action))})
+          }
+        
+          if (source == "none" && source_id == "" && category == "rform") {
+            return _wA({method:"GET", url:"/app/" + "rform/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action)) + "/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+          }
+        
+          if (source_id == "" && id == "" && category == "rform") {
+            return _wA({method:"GET", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/rform/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action))})
+          }
+        
+          if (id == "" && category == "rform") {
+            return _wA({method:"GET", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/rform/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action))})
+          }
+        
+          if (category == "rform") {
+            return _wA({method:"GET", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/rform/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action)) + "/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+          }
+        
+          if (source == "none" && source_id == "" && id == "" && category == "settings") {
+            return _wA({method:"GET", url:"/app/" + "settings/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action))})
+          }
+        
+          if (source == "none" && source_id == "" && category == "settings") {
+            return _wA({method:"GET", url:"/app/" + "settings/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action)) + "/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+          }
+        
+          if (source_id == "" && id == "" && category == "settings") {
+            return _wA({method:"GET", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/settings/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action))})
+          }
+        
+          if (source_id == "" && category == "settings") {
+            return _wA({method:"GET", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/settings/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action)) + "/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+          }
+        
+          if (id == "" && category == "settings") {
+            return _wA({method:"GET", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/settings/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action))})
+          }
+        
+          if (category == "settings") {
+            return _wA({method:"GET", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/settings/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action)) + "/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+          }
+        
+          if (form == "basic_setup" && id == "" && category == "basic_setup") {
+            return _wA({method:"GET", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/basic_setup/" + (function(k,v) {return v})("action", encodeURIComponent(action))})
+          }
+        
+          if (form == "basic_setup" && category == "basic_setup") {
+            return _wA({method:"GET", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/basic_setup/" + (function(k,v) {return v})("action", encodeURIComponent(action)) + "/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+          }
+        
+        }
+      ;
+_nS('controllers.tw.TWRestForm'); _root['controllers']['tw']['TWRestForm']['put'] = 
+        function(source,source_id,form,action,id,category) {
+        
+          if (category == "rform") {
+            return _wA({method:"PUT", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/rform/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action)) + "/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+          }
+        
+          if (source == "none" && source_id == "" && category == "settings") {
+            return _wA({method:"PUT", url:"/app/" + "settings/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action)) + "/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+          }
+        
+          if (category == "settings") {
+            return _wA({method:"PUT", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/settings/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action)) + "/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+          }
+        
+        }
+      ;
+_nS('controllers.tw.TWRestForm'); _root['controllers']['tw']['TWRestForm']['deleter'] = 
+        function(source,source_id,form,action,id,category) {
+        
+          if (source_id == "" && category == "rform") {
+            return _wA({method:"DELETE", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/rform/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action)) + "/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+          }
+        
+          if (id == "" && category == "rform") {
+            return _wA({method:"DELETE", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/rform/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action))})
+          }
+        
+          if (category == "rform") {
+            return _wA({method:"DELETE", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/rform/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action)) + "/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+          }
+        
+          if (source_id == "" && category == "settings") {
+            return _wA({method:"DELETE", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/settings/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action)) + "/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+          }
+        
+          if (category == "settings") {
+            return _wA({method:"DELETE", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/settings/" + (function(k,v) {return v})("form", encodeURIComponent(form)) + "/" + (function(k,v) {return v})("action", encodeURIComponent(action)) + "/" + (function(k,v) {return v})("id", encodeURIComponent(id))})
+          }
+        
+        }
+      ;
+_nS('controllers.tw.CountryDecide'); _root['controllers']['tw']['CountryDecide']['redirect'] = 
+        function() {
+          return _wA({method:"GET", url:"/app/" + "countrydecide"})
+        }
+      ;
+_nS('controllers.tw.Streaming'); _root['controllers']['tw']['Streaming']['streamURL'] = 
+        function(source,source_id) {
+          return _wA({method:"POST", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/streaming"})
+        }
+      ;
+_nS('controllers.tw.Application'); _root['controllers']['tw']['Application']['bootstrap'] = 
+        function(source,source_id) {
+          return _wA({method:"GET", url:"/app/" + (function(k,v) {return v})("source", encodeURIComponent(source)) + "/" + (function(k,v) {return v})("source_id", encodeURIComponent(source_id)) + "/bootstrap"})
+        }
+      ;
+})(routes)

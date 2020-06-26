@@ -1,0 +1,129 @@
+/*
+* Footer style updates
+* I have split this out to make it easier to itegrate back into your main stylesheets
+*/
+
+.tw-footer {
+	margin-top: 0;
+}
+
+.tw-footer .footer-links {
+	overflow: hidden;
+	padding: 60px 0;
+	min-height: 400px;
+	background-color: #101A35;
+}
+
+.tw-footer .footer-links .footer-col .col-title {
+	font-family: 'Forno-m',"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	letter-spacing: 0.03em;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.tw-footer .footer-links .footer-col .col-link {
+	font-family: 'F37Moon',"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 0.02em;
+	color: #8CCEEC;
+	margin-bottom: 7px;
+	opacity: 1;
+	transition: color 0.25s;
+}
+
+.tw-footer .footer-links .footer-col .col-title:hover,
+.tw-footer .footer-links .footer-col .col-link:hover {
+	border-bottom-color: transparent;
+	color: white;
+}
+
+.tw-footer .footer-social {
+	background-color: white;
+	padding: 45px 0;
+}
+
+.tw-footer .footer-social .col-buttons .social-button IMG {
+	width: 30px;
+	height: 30px;
+}
+
+.tw-footer .footer-social .col-copyright {
+	font-family: 'F37Moon',"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: 0.02em;
+	color: #101A35;
+}
+
+.tw-footer .footer-social .col-copyright A {
+	font-weight: 400;
+}
+
+.tw-footer .footer-social .col-copyright A:hover {
+	color: #1A9EDA;
+	border-bottom-color: #1A9EDA;
+}
+
+.tw-footer .footer-social .col-buttons A:hover {
+	color: #1A9EDA;
+	border-bottom-color: transparent;
+}
+
+
+
+@media(min-width: 815px){
+	.tw-footer .container {
+		width: 100%;
+	}
+	.tw-footer .footer-social .col-buttons .social-button IMG {
+		width: 40px;
+		height: 40px;
+	}
+}
+
+@media(min-width: 1040px){
+	.tw-footer .container {
+		width: 100%;
+	}
+}
+
+@media(min-width: 1240px){
+	.tw-footer .container {
+		width: 100%;
+		padding: 0 80px;
+	}
+	.tw-footer .footer-links .footer-col {
+		margin-top: 0;
+	}
+	.tw-footer .footer-links .col-lg-offset-1 {
+		position: relative;
+		margin-left: 0;
+		padding-left: calc(8.33333333% + 20px);
+	}
+	.tw-footer .footer-links .col-lg-offset-1:before {
+		display: block;
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 1px;
+		height: 100%;
+		background-color: #909CBB;
+	}
+}
+
+@media(min-width: 1440px){
+	.tw-footer .container {
+		padding: 0 100px;
+	}
+}

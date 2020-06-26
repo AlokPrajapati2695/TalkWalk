@@ -1,0 +1,945 @@
+
+
+
+
+
+dataTypeConf = {
+     
+           "NONE_DATA" :
+            {
+                "data_type" : "NONE_DATA",
+                "configuration_type" : "UUID_CONFIG_EDTION",
+                "configuration" :  {"uuid_configuration":"NONE_DATA","kind":"CONF_GRAPHS","word_add_table_of_contents":false} ,
+                "payload_type" : "PAYLOAD_EDITION"
+            },
+     
+           "RESTFORM" :
+            {
+                "data_type" : "RESTFORM",
+                "configuration_type" : "UUID_CONFIG_RESTFORM",
+                "configuration" :  {"uuid_configuration":"RESTFORM","kind":"CONF_GRAPHS","word_add_table_of_contents":false} ,
+                "payload_type" : "PAYLOAD_RESTFORM"
+            },
+     
+           "RESULT" :
+            {
+                "data_type" : "RESULT",
+                "configuration_type" : "UUID_CONFIG_RESULT",
+                "configuration" :  {"uuid_configuration":"RESULT","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"CATEGORY","type_graph":"COLUMN_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_upgrade_message":"N"}} ,
+                "payload_type" : "PAYLOAD_RESULT"
+            },
+     
+           "RESULT_SIMPLE" :
+            {
+                "data_type" : "RESULT_SIMPLE",
+                "configuration_type" : "UUID_CONFIG_RESULT_SIMPLE",
+                "configuration" :  {"uuid_configuration":"RESULT_SIMPLE","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"CATEGORY","type_graph":"COLUMN_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_upgrade_message":"N"}} ,
+                "payload_type" : "PAYLOAD_RESULT"
+            },
+     
+           "RESULT_PROGRESS_GRAPH" :
+            {
+                "data_type" : "RESULT_PROGRESS_GRAPH",
+                "configuration_type" : "UUID_CONFIG_RESULT_PROGRESS_GRAPH",
+                "configuration" :  {"uuid_configuration":"RESULT_PROGRESS_GRAPH","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"CATEGORY","type_graph":"COLUMN_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_upgrade_message":"N"}} ,
+                "payload_type" : "PAYLOAD_RESULT"
+            },
+     
+           "COUNTER" :
+            {
+                "data_type" : "COUNTER",
+                "configuration_type" : "UUID_CONFIG_COUNTER",
+                "configuration" :  {"uuid_configuration":"RESULT_SIMPLE","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"CATEGORY","type_graph":"COLUMN_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_upgrade_message":"N"}} ,
+                "payload_type" : "PAYLOAD_RESULT"
+            },
+     
+           "COLUMN_CHART_VERTICAL" :
+            {
+                "data_type" : "COLUMN_CHART_VERTICAL",
+                "configuration_type" : "UUID_CONFIG_COLUMN_CHART_VERTICAL",
+                "configuration" :  {"uuid_configuration":"COLUMN_CHART_VERTICAL_NOT_STACKED","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"CATEGORY","type_graph":"COLUMN_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_upgrade_message":"N","show_change":"Y"},"bar_chart":{"stacking_mode":"NONE","orientation_mode":"VERTICAL"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_DATAGRAPH"
+            },
+     
+           "COLUMN_CHART_VERTICAL_PERC" :
+            {
+                "data_type" : "COLUMN_CHART_VERTICAL_PERC",
+                "configuration_type" : "UUID_CONFIG_COLUMN_CHART_VERTICAL_PERC",
+                "configuration" :  {"uuid_configuration":"COLUMN_CHART_VERTICAL_PERC","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"CATEGORY","type_graph":"COLUMN_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_upgrade_message":"N","show_change":"Y"},"bar_chart":{"stacking_mode":"NONE_PERCENT","orientation_mode":"VERTICAL"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_DATAGRAPH"
+            },
+     
+           "COLUMN_CHART_HORIZONTAL" :
+            {
+                "data_type" : "COLUMN_CHART_HORIZONTAL",
+                "configuration_type" : "UUID_CONFIG_COLUMN_CHART_HORIZONTAL",
+                "configuration" :  {"uuid_configuration":"COLUMN_CHART_HORIZONTAL","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"CATEGORY","type_graph":"COLUMN_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_upgrade_message":"N","show_change":"Y"},"bar_chart":{"stacking_mode":"NONE","orientation_mode":"HORIZONTAL"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_DATAGRAPH"
+            },
+     
+           "COLUMN_CHART_HORIZONTAL_PERC" :
+            {
+                "data_type" : "COLUMN_CHART_HORIZONTAL_PERC",
+                "configuration_type" : "UUID_CONFIG_COLUMN_CHART_HORIZONTAL_PERC",
+                "configuration" :  {"uuid_configuration":"COLUMN_CHART_HORIZONTAL_PERC","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"CATEGORY","type_graph":"COLUMN_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_upgrade_message":"N","show_change":"Y"},"bar_chart":{"stacking_mode":"NONE_PERCENT","orientation_mode":"HORIZONTAL"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_DATAGRAPH"
+            },
+     
+           "COLUMN_CHART_VERTICAL_STACKED" :
+            {
+                "data_type" : "COLUMN_CHART_VERTICAL_STACKED",
+                "configuration_type" : "UUID_CONFIG_COLUMN_CHART_VERTICAL_STACKED",
+                "configuration" :  {"uuid_configuration":"COLUMN_CHART_VERTICAL_STACKED","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"CATEGORY","type_graph":"COLUMN_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_upgrade_message":"N","show_change":"Y"},"bar_chart":{"stacking_mode":"STACK","orientation_mode":"VERTICAL"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_DATAGRAPH"
+            },
+     
+           "COLUMN_CHART_VERTICAL_STACKED_PERC" :
+            {
+                "data_type" : "COLUMN_CHART_VERTICAL_STACKED_PERC",
+                "configuration_type" : "UUID_CONFIG_COLUMN_CHART_VERTICAL_STACKED_PERC",
+                "configuration" :  {"uuid_configuration":"COLUMN_CHART_VERTICAL_STACKED_PERC","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"CATEGORY","type_graph":"COLUMN_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_upgrade_message":"N","show_change":"Y"},"bar_chart":{"stacking_mode":"STACK_PERCENT","orientation_mode":"VERTICAL"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_DATAGRAPH"
+            },
+     
+           "COLUMN_CHART_VERTICAL_NOT_STACKED" :
+            {
+                "data_type" : "COLUMN_CHART_VERTICAL_NOT_STACKED",
+                "configuration_type" : "UUID_CONFIG_COLUMN_CHART_VERTICAL_NOT_STACKED",
+                "configuration" :  {"uuid_configuration":"COLUMN_CHART_VERTICAL_NOT_STACKED","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"CATEGORY","type_graph":"COLUMN_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_upgrade_message":"N","show_change":"Y"},"bar_chart":{"stacking_mode":"NONE","orientation_mode":"VERTICAL"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_DATAGRAPH"
+            },
+     
+           "COLUMN_CHART_VERTICAL_NOT_STACKED_PERC" :
+            {
+                "data_type" : "COLUMN_CHART_VERTICAL_NOT_STACKED_PERC",
+                "configuration_type" : "UUID_CONFIG_COLUMN_CHART_VERTICAL_NOT_STACKED_PERC",
+                "configuration" :  {"uuid_configuration":"COLUMN_CHART_VERTICAL_NOT_STACKED_PERC","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"CATEGORY","type_graph":"COLUMN_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_upgrade_message":"N","show_change":"Y"},"bar_chart":{"stacking_mode":"NONE_PERCENT","orientation_mode":"VERTICAL"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_DATAGRAPH"
+            },
+     
+           "COLUMN_CHART_HORIZONTAL_STACKED" :
+            {
+                "data_type" : "COLUMN_CHART_HORIZONTAL_STACKED",
+                "configuration_type" : "UUID_CONFIG_COLUMN_CHART_HORIZONTAL_STACKED",
+                "configuration" :  {"uuid_configuration":"COLUMN_CHART_HORIZONTAL_STACKED","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"CATEGORY","type_graph":"COLUMN_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_upgrade_message":"N","show_change":"Y"},"bar_chart":{"stacking_mode":"STACK","orientation_mode":"HORIZONTAL"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_DATAGRAPH"
+            },
+     
+           "COLUMN_CHART_HORIZONTAL_STACKED_PERC" :
+            {
+                "data_type" : "COLUMN_CHART_HORIZONTAL_STACKED_PERC",
+                "configuration_type" : "UUID_CONFIG_COLUMN_CHART_HORIZONTAL_STACKED_PERC",
+                "configuration" :  {"uuid_configuration":"COLUMN_CHART_HORIZONTAL_STACKED_PERC","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"CATEGORY","type_graph":"COLUMN_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_upgrade_message":"N","show_change":"Y"},"bar_chart":{"stacking_mode":"STACK_PERCENT","orientation_mode":"HORIZONTAL"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_DATAGRAPH"
+            },
+     
+           "COLUMN_CHART_HORIZONTAL_NOT_STACKED" :
+            {
+                "data_type" : "COLUMN_CHART_HORIZONTAL_NOT_STACKED",
+                "configuration_type" : "UUID_CONFIG_COLUMN_CHART_HORIZONTAL_NOT_STACKED",
+                "configuration" :  {"uuid_configuration":"COLUMN_CHART_HORIZONTAL_NOT_STACKED","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"CATEGORY","type_graph":"COLUMN_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_upgrade_message":"N","show_change":"Y"},"bar_chart":{"stacking_mode":"NONE","orientation_mode":"HORIZONTAL"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_DATAGRAPH"
+            },
+     
+           "COLUMN_CHART_HORIZONTAL_NOT_STACKED_PERC" :
+            {
+                "data_type" : "COLUMN_CHART_HORIZONTAL_NOT_STACKED_PERC",
+                "configuration_type" : "UUID_CONFIG_COLUMN_CHART_HORIZONTAL_NOT_STACKED_PERC",
+                "configuration" :  {"uuid_configuration":"COLUMN_CHART_HORIZONTAL_NOT_STACKED_PERC","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"CATEGORY","type_graph":"COLUMN_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_upgrade_message":"N","show_change":"Y"},"bar_chart":{"stacking_mode":"NONE_PERCENT","orientation_mode":"HORIZONTAL"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_DATAGRAPH"
+            },
+     
+           "PIE_CHART" :
+            {
+                "data_type" : "PIE_CHART",
+                "configuration_type" : "UUID_CONFIG_PIE_CHART",
+                "configuration" :  {"uuid_configuration":"PIE_CHART","kind":"CONF_GRAPHS","graph":{"legend":"b","label":"Y","shape":"ROUND","type_graph":"PIE_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_change":"Y"},"native_chart":false,"title_character_limit":75,"description_character_limit":75} ,
+                "payload_type" : "PAYLOAD_DATAGRAPH"
+            },
+     
+           "PIE_CHART" :
+            {
+                "data_type" : "PIE_CHART",
+                "configuration_type" : "UUID_CONFIG_PIE_CHART_LEGEND_BOTTOM",
+                "configuration" :  {"uuid_configuration":"PIE_CHART","kind":"CONF_GRAPHS","graph":{"legend":"b","label":"Y","shape":"ROUND","type_graph":"PIE_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_change":"Y","legend_break":true},"native_chart":false,"title_character_limit":75,"description_character_limit":75} ,
+                "payload_type" : "PAYLOAD_DATAGRAPH"
+            },
+     
+           "PIE_CHART" :
+            {
+                "data_type" : "PIE_CHART",
+                "configuration_type" : "UUID_CONFIG_PIE_CHART_LEGEND_RIGHT",
+                "configuration" :  {"uuid_configuration":"PIE_CHART","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"ROUND","type_graph":"PIE_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_change":"Y","legend_break":true},"native_chart":false,"title_character_limit":75,"description_character_limit":75} ,
+                "payload_type" : "PAYLOAD_DATAGRAPH"
+            },
+     
+           "RADAR_CHART_ROW_AXES" :
+            {
+                "data_type" : "RADAR_CHART_ROW_AXES",
+                "configuration_type" : "UUID_CONFIG_RADAR_CHART_ROW_AXES",
+                "configuration" :  {"uuid_configuration":"RADAR_CHART_ROW_AXES","kind":"CONF_GRAPHS","graph":{"legend":"b","label":"Y","shape":"ROUND","type_graph":"RADAR_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_change":"Y"},"native_chart":false,"title_character_limit":75,"description_character_limit":75} ,
+                "payload_type" : "PAYLOAD_DATAGRAPH"
+            },
+     
+           "RADAR_CHART_COLUMN_AXES" :
+            {
+                "data_type" : "RADAR_CHART_COLUMN_AXES",
+                "configuration_type" : "UUID_CONFIG_RADAR_CHART_COLUMN_AXES",
+                "configuration" :  {"uuid_configuration":"RADAR_CHART_COLUMN_AXES","kind":"CONF_GRAPHS","graph":{"legend":"b","label":"Y","shape":"ROUND","type_graph":"RADAR_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_change":"Y"},"native_chart":false,"title_character_limit":75,"description_character_limit":75} ,
+                "payload_type" : "PAYLOAD_DATAGRAPH"
+            },
+     
+           "WHEEL_CHART" :
+            {
+                "data_type" : "WHEEL_CHART",
+                "configuration_type" : "UUID_CONFIG_WHEEL_CHART",
+                "configuration" :  {"uuid_configuration":"WHEEL_CHART","kind":"CONF_GRAPHS","graph":{"legend":"b","label":"Y","shape":"ROUND","type_graph":"PIE_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_change":"Y"},"native_chart":false,"title_character_limit":75,"description_character_limit":75} ,
+                "payload_type" : "PAYLOAD_DATAGRAPH"
+            },
+     
+           "MULTI_METRICS" :
+            {
+                "data_type" : "MULTI_METRICS",
+                "configuration_type" : "UUID_CONFIG_MULTI_METRICS",
+                "configuration" :  {"uuid_configuration":"MULTI_METRICS","kind":"CONF_GRAPHS","graph":{"type_graph":"MULTI_METRICS"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_DATAGRAPH"
+            },
+     
+           "LINE_CHART" :
+            {
+                "data_type" : "LINE_CHART",
+                "configuration_type" : "UUID_CONFIG_LINE_CHART",
+                "configuration" :  {"uuid_configuration":"LINE_CHART","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"LINES","type_graph":"LINE_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"N","selection_x":"Y","realtime":"N","time_zone":"","show_upgrade_message":"N"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_DATAGRAPH"
+            },
+     
+           "LINE_CHART_AREA" :
+            {
+                "data_type" : "LINE_CHART_AREA",
+                "configuration_type" : "UUID_CONFIG_LINE_CHART_AREA",
+                "configuration" :  {"uuid_configuration":"LINE_CHART_AREA","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"FILLED","type_graph":"AREA","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"N","selection_x":"Y","realtime":"N","time_zone":"","show_upgrade_message":"N"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_DATAGRAPH"
+            },
+     
+           "LINE_CHART_MULTIPLE" :
+            {
+                "data_type" : "LINE_CHART_MULTIPLE",
+                "configuration_type" : "UUID_CONFIG_LINE_CHART_MULTIPLE",
+                "configuration" :  {"uuid_configuration":"LINE_CHART","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"LINES","type_graph":"LINE_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"N","selection_x":"Y","realtime":"N","time_zone":"","show_upgrade_message":"N"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_DATAGRAPH"
+            },
+     
+           "LINE_CHART_MULTIPLE_AREA" :
+            {
+                "data_type" : "LINE_CHART_MULTIPLE_AREA",
+                "configuration_type" : "UUID_CONFIG_LINE_CHART_MULTIPLE_AREA",
+                "configuration" :  {"uuid_configuration":"LINE_CHART_AREA","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"FILLED","type_graph":"AREA","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"N","selection_x":"Y","realtime":"N","time_zone":"","show_upgrade_message":"N"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_DATAGRAPH"
+            },
+     
+           "VELOCITY_LINE_CHART" :
+            {
+                "data_type" : "VELOCITY_LINE_CHART",
+                "configuration_type" : "UUID_CONFIG_VELOCITY_CHART",
+                "configuration" :  {"uuid_configuration":"VELOCITY_LINE_CHART","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"LINES","type_graph":"LINE_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"N","selection_x":"Y","realtime":"N","time_zone":"","show_upgrade_message":"N"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_VELOCITY_DATAGRAPH"
+            },
+     
+           "STREAM_GRAPH" :
+            {
+                "data_type" : "STREAM_GRAPH",
+                "configuration_type" : "UUID_CONFIG_STREAM_GRAPH",
+                "configuration" :  {"uuid_configuration":"STREAM_GRAPH","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"LINES","type_graph":"LINE_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"N","selection_x":"Y","realtime":"N","time_zone":"","show_upgrade_message":"N"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_DATAGRAPH"
+            },
+     
+           "PROGRESS_GRAPH" :
+            {
+                "data_type" : "PROGRESS_GRAPH",
+                "configuration_type" : "UUID_CONFIG_PROGRESS_GRAPH",
+                "configuration" :  {"uuid_configuration":"PROGRESS_GRAPH","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"LINES","type_graph":"LINE_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"N","selection_x":"Y","realtime":"N","time_zone":"","show_upgrade_message":"N"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_PROGRESS"
+            },
+     
+           "PROGRESS_GRAPH_PERC" :
+            {
+                "data_type" : "PROGRESS_GRAPH_PERC",
+                "configuration_type" : "UUID_CONFIG_PROGRESS_GRAPH_PERC",
+                "configuration" :  {"uuid_configuration":"PROGRESS_GRAPH_PERC","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"LINES","type_graph":"LINE_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"N","selection_x":"Y","realtime":"N","time_zone":"","show_upgrade_message":"N"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_PROGRESS"
+            },
+     
+           "MAP_DEFAULT" :
+            {
+                "data_type" : "MAP_DEFAULT",
+                "configuration_type" : "UUID_CONFIG_SECTION_MAP",
+                "configuration" :  {"uuid_configuration":"MAP_DEFAULT","kind":"CONF_WORLD_MAP","world_map":{}} ,
+                "payload_type" : "PAYLOAD_MAP"
+            },
+     
+           "MAP_DEFAULT" :
+            {
+                "data_type" : "MAP_DEFAULT",
+                "configuration_type" : "UUID_CONFIG_MAP",
+                "configuration" :  {"uuid_configuration":"MAP_DEFAULT","kind":"CONF_WORLD_MAP","world_map":{}} ,
+                "payload_type" : "PAYLOAD_MAP"
+            },
+     
+           "MAP_HEATMAP" :
+            {
+                "data_type" : "MAP_HEATMAP",
+                "configuration_type" : "UUID_CONFIG_MAP_HEATMAP",
+                "configuration" :  {"uuid_configuration":"MAP_HEATMAP","kind":"CONF_WORLD_MAP","world_map":{}} ,
+                "payload_type" : "PAYLOAD_MAP"
+            },
+     
+           "MAP_GEO_CENTROID" :
+            {
+                "data_type" : "MAP_GEO_CENTROID",
+                "configuration_type" : "UUID_CONFIG_MAP_GEO_CENTROID",
+                "configuration" :  {"uuid_configuration":"MAP_HEATMAP","kind":"CONF_WORLD_MAP","world_map":{}} ,
+                "payload_type" : "PAYLOAD_MAP"
+            },
+     
+           "MAP_CHOROPLETH" :
+            {
+                "data_type" : "MAP_CHOROPLETH",
+                "configuration_type" : "UUID_CONFIG_MAP_CHOROPLETH",
+                "configuration" :  {"uuid_configuration":"MAP_CHOROPLETH","kind":"CONF_WORLD_MAP","world_map":{}} ,
+                "payload_type" : "PAYLOAD_MAP"
+            },
+     
+           "MAP_EMOJI" :
+            {
+                "data_type" : "MAP_EMOJI",
+                "configuration_type" : "UUID_CONFIG_MAP_EMOJI",
+                "configuration" :  {"uuid_configuration":"MAP_EMOJI","kind":"CONF_WORLD_MAP","world_map":{}} ,
+                "payload_type" : "PAYLOAD_MAP"
+            },
+     
+           "RESULTSLIST" :
+            {
+                "data_type" : "RESULTSLIST",
+                "configuration_type" : "UUID_CONFIG_ENTRIES_RESULTS_DEFAULT",
+                "configuration" :  {"uuid_configuration":"RESULTSLIST","kind":"CONF_ENTRIES","entries":{}} ,
+                "payload_type" : "PAYLOAD_ARTICLES"
+            },
+     
+           "RESULTSLIST_NO_METRICS" :
+            {
+                "data_type" : "RESULTSLIST_NO_METRICS",
+                "configuration_type" : "UUID_CONFIG_ENTRIES_RESULTS_NO_METRICS",
+                "configuration" :  {"uuid_configuration":"RESULTSLIST","kind":"CONF_ENTRIES","entries":{}} ,
+                "payload_type" : "PAYLOAD_ARTICLES"
+            },
+     
+           "RESULTSLIST_IMAGE_GRID" :
+            {
+                "data_type" : "RESULTSLIST_IMAGE_GRID",
+                "configuration_type" : "UUID_CONFIG_ENTRIES_RESULTS_IMAGE_GRID",
+                "configuration" :  {"uuid_configuration":"RESULTSLIST_IMAGE_GRID","kind":"CONF_ENTRIES","entries":{}} ,
+                "payload_type" : "PAYLOAD_ARTICLES"
+            },
+     
+           "RESULTSLIST_IMAGE_TILES" :
+            {
+                "data_type" : "RESULTSLIST_IMAGE_TILES",
+                "configuration_type" : "UUID_CONFIG_ENTRIES_RESULTS_IMAGE_TILES",
+                "configuration" :  {"uuid_configuration":"RESULTSLIST_IMAGE_TILES","kind":"CONF_ENTRIES","entries":{}} ,
+                "payload_type" : "PAYLOAD_ARTICLES"
+            },
+     
+           "RESULTSLIST_COMPACT" :
+            {
+                "data_type" : "RESULTSLIST_COMPACT",
+                "configuration_type" : "UUID_CONFIG_ENTRIES_RESULTS_COMPACT",
+                "configuration" :  {"uuid_configuration":"RESULTSLIST_COMPACT","kind":"CONF_ENTRIES","entries":{}} ,
+                "payload_type" : "PAYLOAD_ARTICLES"
+            },
+     
+           "RESULTSLIST_STORY_TILES" :
+            {
+                "data_type" : "RESULTSLIST_STORY_TILES",
+                "configuration_type" : "UUID_CONFIG_ENTRIES_RESULTS_STORY_TILES",
+                "configuration" :  {"uuid_configuration":"RESULTSLIST_STORY_TILES","kind":"CONF_ENTRIES","entries":{}} ,
+                "payload_type" : "PAYLOAD_ARTICLES"
+            },
+     
+           "RESULTSLIST_WORLD_MAP" :
+            {
+                "data_type" : "RESULTSLIST_WORLD_MAP",
+                "configuration_type" : "UUID_CONFIG_ENTRIES_RESULTS_WORLD_MAP",
+                "configuration" :  {"uuid_configuration":"RESULTSLIST_WORLD_MAP","kind":"CONF_ENTRIES","entries":{}} ,
+                "payload_type" : "PAYLOAD_ARTICLES"
+            },
+     
+           "RESULTSLIST_TREE_MAP" :
+            {
+                "data_type" : "RESULTSLIST_TREE_MAP",
+                "configuration_type" : "UUID_CONFIG_ENTRIES_RESULTS_TREE_MAP",
+                "configuration" :  {"uuid_configuration":"RESULTSLIST_TREE_MAP","kind":"CONF_ENTRIES","entries":{}} ,
+                "payload_type" : "PAYLOAD_ARTICLES"
+            },
+     
+           "RESULTSLIST_STORIES" :
+            {
+                "data_type" : "RESULTSLIST_STORIES",
+                "configuration_type" : "UUID_CONFIG_ENTRIES_RESULTS_STORIES",
+                "configuration" :  {"uuid_configuration":"RESULTSLIST_STORIES","kind":"CONF_ENTRIES","entries":{}} ,
+                "payload_type" : "PAYLOAD_ARTICLES"
+            },
+     
+           "RESULTSLIST_INTERACTIONS" :
+            {
+                "data_type" : "RESULTSLIST_INTERACTIONS",
+                "configuration_type" : "UUID_CONFIG_ENTRIES_RESULTS_INTERACTIONS",
+                "configuration" :  {"uuid_configuration":"RESULTSLIST_INTERACTIONS","kind":"CONF_ENTRIES","entries":{}} ,
+                "payload_type" : "PAYLOAD_ARTICLES"
+            },
+     
+           "RESULTSLIST_FULL_CONTENT" :
+            {
+                "data_type" : "RESULTSLIST_FULL_CONTENT",
+                "configuration_type" : "UUID_CONFIG_ENTRIES_RESULTS_FULL_CONTENT",
+                "configuration" :  {"uuid_configuration":"RESULTSLIST_FULL_CONTENT","kind":"CONF_ENTRIES","entries":{}} ,
+                "payload_type" : "PAYLOAD_ARTICLES"
+            },
+     
+           "RESULTSLIST_SLIDES_ONE" :
+            {
+                "data_type" : "RESULTSLIST_SLIDES_ONE",
+                "configuration_type" : "UUID_CONFIG_ENTRIES_RESULTS_SLIDES_ONE",
+                "configuration" :  {"uuid_configuration":"RESULTSLIST_SLIDES_ONE","kind":"CONF_ENTRIES","entries":{}} ,
+                "payload_type" : "PAYLOAD_ARTICLES"
+            },
+     
+           "RESULTSLIST_SLIDES_THREE" :
+            {
+                "data_type" : "RESULTSLIST_SLIDES_THREE",
+                "configuration_type" : "UUID_CONFIG_ENTRIES_RESULTS_SLIDES_THREE",
+                "configuration" :  {"uuid_configuration":"RESULTSLIST_SLIDES_THREE","kind":"CONF_ENTRIES","entries":{}} ,
+                "payload_type" : "PAYLOAD_ARTICLES"
+            },
+     
+           "RESULTSLIST_SLIDES_FIVE" :
+            {
+                "data_type" : "RESULTSLIST_SLIDES_FIVE",
+                "configuration_type" : "UUID_CONFIG_ENTRIES_RESULTS_SLIDES_FIVE",
+                "configuration" :  {"uuid_configuration":"RESULTSLIST_SLIDES_FIVE","kind":"CONF_ENTRIES","entries":{}} ,
+                "payload_type" : "PAYLOAD_ARTICLES"
+            },
+     
+           "RESULTSLIST_SLIDES_TEN" :
+            {
+                "data_type" : "RESULTSLIST_SLIDES_TEN",
+                "configuration_type" : "UUID_CONFIG_ENTRIES_RESULTS_SLIDES_TEN",
+                "configuration" :  {"uuid_configuration":"RESULTSLIST_SLIDES_TEN","kind":"CONF_ENTRIES","entries":{}} ,
+                "payload_type" : "PAYLOAD_ARTICLES"
+            },
+     
+           "RESULTSLIST_SLIDES_IMAGES" :
+            {
+                "data_type" : "RESULTSLIST_SLIDES_IMAGES",
+                "configuration_type" : "UUID_CONFIG_ENTRIES_RESULTS_SLIDES_IMAGES",
+                "configuration" :  {"uuid_configuration":"RESULTSLIST_SLIDES_IMAGES","kind":"CONF_ENTRIES","entries":{}} ,
+                "payload_type" : "PAYLOAD_ARTICLES"
+            },
+     
+           "ISSUE_ITEMS_TABLE" :
+            {
+                "data_type" : "ISSUE_ITEMS_TABLE",
+                "configuration_type" : "UUID_CONFIG_ISSUE_TRACKER_ITEMS_TABLE",
+                "configuration" :  {"uuid_configuration":"FANCY_DATATABLE","kind":"CONF_GRAPHS","graph":{"navigation":"N"},"data_table":{"show_total_top":"Y","show_total_all":"Y","show_change":"Y"}} ,
+                "payload_type" : "PAYLOAD_ISSUE_ITEMS_TABLE"
+            },
+     
+           "ISSUES_TILE" :
+            {
+                "data_type" : "ISSUES_TILE",
+                "configuration_type" : "UUID_CONFIG_ISSUE_TRACKER_ISSUES_TILE",
+                "configuration" :  {"uuid_configuration":"ISSUES_TILE","kind":"CONF_ENTRIES","entries":{}} ,
+                "payload_type" : "PAYLOAD_ISSUES_LIST"
+            },
+     
+           "DATATABLE" :
+            {
+                "data_type" : "DATATABLE",
+                "configuration_type" : "UUID_CONFIG_DATA_TABLE_DEFAULT",
+                "configuration" :  {"uuid_configuration":"DATATABLE","kind":"CONF_GRAPHS","graph":{"navigation":"N"},"data_table":{"show_total_top":"Y","show_total_all":"Y","show_change":"Y"}} ,
+                "payload_type" : "PAYLOAD_DATA_TABLE"
+            },
+     
+           "FANCY_DATATABLE" :
+            {
+                "data_type" : "FANCY_DATATABLE",
+                "configuration_type" : "UUID_CONFIG_DATA_TABLE_FANCY",
+                "configuration" :  {"uuid_configuration":"FANCY_DATATABLE","kind":"CONF_GRAPHS","graph":{"navigation":"N"},"data_table":{"show_total_top":"Y","show_total_all":"Y","show_change":"Y"}} ,
+                "payload_type" : "PAYLOAD_DATA_TABLE"
+            },
+     
+           "INFLUENCORS_DATA_TYPE" :
+            {
+                "data_type" : "INFLUENCORS_DATA_TYPE",
+                "configuration_type" : "UUID_CONFIG_INFLUENCERS_DEFAULT",
+                "configuration" :  {"uuid_configuration":"DATATABLE","kind":"CONF_GRAPHS","graph":{"navigation":"N"},"data_table":{"show_total_top":"Y","show_total_all":"Y","show_change":"Y"}} ,
+                "payload_type" : "PAYLOAD_DATA_TABLE"
+            },
+     
+           "INFLUENCORS_DATA_TYPE" :
+            {
+                "data_type" : "INFLUENCORS_DATA_TYPE",
+                "configuration_type" : "UUID_CONFIG_INFLUENCERS_TABLE_DEFAULT",
+                "configuration" :  {"uuid_configuration":"DATATABLE","kind":"CONF_GRAPHS","graph":{"navigation":"N"},"data_table":{"show_total_top":"Y","show_total_all":"Y","show_change":"Y"}} ,
+                "payload_type" : "PAYLOAD_DATA_TABLE"
+            },
+     
+           "BUBBLE" :
+            {
+                "data_type" : "BUBBLE",
+                "configuration_type" : "UUID_CONFIG_BUBBLE_DEFAULT",
+                "configuration" :  {"uuid_configuration":"BUBBLE","kind":"CONF_GRAPHS","graph":{"navigation":"N"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_BUBBLE"
+            },
+     
+           "BUBBLE" :
+            {
+                "data_type" : "BUBBLE",
+                "configuration_type" : "UUID_CONFIG_BUBBLE_TRENDS_DEFAULT",
+                "configuration" :  {"uuid_configuration":"BUBBLE","kind":"CONF_GRAPHS","graph":{"navigation":"N"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_BUBBLE"
+            },
+     
+           "IMPACT_BUBBLE" :
+            {
+                "data_type" : "IMPACT_BUBBLE",
+                "configuration_type" : "UUID_CONFIG_IMPACT_BUBBLES_DEFAULT",
+                "configuration" :  {"uuid_configuration":"IMPACT_BUBBLE","kind":"CONF_GRAPHS","graph":{"navigation":"N"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_BUBBLE"
+            },
+     
+           "ACTIVITY" :
+            {
+                "data_type" : "ACTIVITY",
+                "configuration_type" : "UUID_CONFIG_ACTIVITY_DEFAULT",
+                "configuration" :  {"uuid_configuration":"ACTIVITY","kind":"CONF_GRAPHS","graph":{"navigation":"N"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_ACTIVITY"
+            },
+     
+           "GENDER" :
+            {
+                "data_type" : "GENDER",
+                "configuration_type" : "UUID_CONFIG_GENDER_DEFAULT",
+                "configuration" :  {"uuid_configuration":"GENDER","kind":"CONF_GRAPHS","graph":{"navigation":"N"}} ,
+                "payload_type" : "PAYLOAD_GENDER"
+            },
+     
+           "INFLUENCER_MANAGEMENT_NOTES" :
+            {
+                "data_type" : "INFLUENCER_MANAGEMENT_NOTES",
+                "configuration_type" : "UUID_CONFIG_INFLUENCERLIST_LIST",
+                "configuration" :  {"uuid_configuration":"INFLUENCER_MANAGEMENT_NOTES","kind":"CONF_ENTRIES","entries":{}} ,
+                "payload_type" : "PAYLOAD_INFLUENCER_LIST"
+            },
+     
+           "INFLUENCER_MANAGEMENT_NOTES" :
+            {
+                "data_type" : "INFLUENCER_MANAGEMENT_NOTES",
+                "configuration_type" : "UUID_CONFIG_INFLUENCERLIST_DEFAULT",
+                "configuration" :  {"uuid_configuration":"INFLUENCER_MANAGEMENT_NOTES","kind":"CONF_ENTRIES","entries":{}} ,
+                "payload_type" : "PAYLOAD_INFLUENCER_LIST"
+            },
+     
+           "INFLUENCER_MANAGEMENT_TILE" :
+            {
+                "data_type" : "INFLUENCER_MANAGEMENT_TILE",
+                "configuration_type" : "UUID_CONFIG_INFLUENCERLIST_TILE",
+                "configuration" :  {"uuid_configuration":"INFLUENCER_MANAGEMENT_TILE","kind":"CONF_ENTRIES","entries":{}} ,
+                "payload_type" : "PAYLOAD_INFLUENCER_LIST"
+            },
+     
+           "INFLUENCER_MANAGEMENT_DETAILED" :
+            {
+                "data_type" : "INFLUENCER_MANAGEMENT_DETAILED",
+                "configuration_type" : "UUID_CONFIG_INFLUENCERLIST_DETAILED",
+                "configuration" :  {"uuid_configuration":"INFLUENCER_MANAGEMENT_DETAILED","kind":"CONF_ENTRIES","entries":{}} ,
+                "payload_type" : "PAYLOAD_INFLUENCER_LIST"
+            },
+     
+           "INFLUENCER_MANAGEMENT_DETAILED" :
+            {
+                "data_type" : "INFLUENCER_MANAGEMENT_DETAILED",
+                "configuration_type" : "UUID_CONFIG_INFLUENCERLIST_CONTACTS",
+                "configuration" :  {"uuid_configuration":"INFLUENCER_MANAGEMENT_DETAILED","kind":"CONF_ENTRIES","entries":{}} ,
+                "payload_type" : "PAYLOAD_INFLUENCER_LIST"
+            },
+     
+           "INFLUENCER_MANAGEMENT_NOTES" :
+            {
+                "data_type" : "INFLUENCER_MANAGEMENT_NOTES",
+                "configuration_type" : "UUID_CONFIG_INFLUENCERLIST_LABELS",
+                "configuration" :  {"uuid_configuration":"INFLUENCER_MANAGEMENT_NOTES","kind":"CONF_ENTRIES","entries":{}} ,
+                "payload_type" : "PAYLOAD_INFLUENCER_LIST"
+            },
+     
+           "INFLUENCER_OVERVIEW" :
+            {
+                "data_type" : "INFLUENCER_OVERVIEW",
+                "configuration_type" : "UUID_CONFIG_INFLUENCER_OVERVIEW_DEFAULT",
+                "configuration" :  {"uuid_configuration":"INFLUENCER_OVERVIEW","kind":"CONF_GRAPHS","graph":{"navigation":"N"}} ,
+                "payload_type" : "PAYLOAD_INFLUENCER_OVERVIEW"
+            },
+     
+           "TOP_INFLUENCERS_OVERVIEW" :
+            {
+                "data_type" : "TOP_INFLUENCERS_OVERVIEW",
+                "configuration_type" : "UUID_CONFIG_TOP_INFLUENCERS_OVERVIEW_DEFAULT",
+                "configuration" :  {"uuid_configuration":"TOP_INFLUENCERS_OVERVIEW","kind":"CONF_GRAPHS","graph":{"navigation":"N"}} ,
+                "payload_type" : "PAYLOAD_TOP_INFLUENCERS_OVERVIEW"
+            },
+     
+           "TAGCLOUD_LIST" :
+            {
+                "data_type" : "TAGCLOUD_LIST",
+                "configuration_type" : "UUID_CONFIG_ENTRIES_THEME_CLOUD",
+                "configuration" :  {"uuid_configuration":"TAGCLOUD_LIST","kind":"CONF_ENTRIES","graph":{"tooltip":"Y","navigation":"N"},"entries":{},"theme_cloud":{"font_family":"SourceSansProB","orientation_count":2,"font_sizes_min":9,"font_sizes_max":36,"show_total_top_words":2147483647,"image_sizes_min":14,"image_sizes_max":72}} ,
+                "payload_type" : "PAYLOAD_THEME_TREE"
+            },
+     
+           "TAGCLOUD_OLD" :
+            {
+                "data_type" : "TAGCLOUD_OLD",
+                "configuration_type" : "UUID_CONFIG_ENTRIES_THEME_CLOUD_HORIZONTAL",
+                "configuration" :  {"uuid_configuration":"TAGCLOUD_OLD","kind":"CONF_ENTRIES","graph":{"tooltip":"Y","navigation":"N"},"entries":{},"theme_cloud":{"font_family":"SourceSansProB","orientation_count":1,"font_sizes_min":9,"font_sizes_max":36,"show_total_top_words":2147483647,"image_sizes_min":14,"image_sizes_max":72}} ,
+                "payload_type" : "PAYLOAD_THEME_TREE"
+            },
+     
+           "THEME_TREE_WITH_TRENDS" :
+            {
+                "data_type" : "THEME_TREE_WITH_TRENDS",
+                "configuration_type" : "UUID_CONFIG_ENTRIES_THEME_TREE_WITH_TRENDS",
+                "configuration" :  {"uuid_configuration":"THEME_TREE_WITH_TRENDS","kind":"CONF_ENTRIES","graph":{"tooltip":"Y","navigation":"N"},"entries":{},"theme_cloud":{"font_family":"SourceSansProB","orientation_count":1,"font_sizes_min":9,"font_sizes_max":36,"show_total_top_words":2147483647,"image_sizes_min":14,"image_sizes_max":72}} ,
+                "payload_type" : "PAYLOAD_THEME_TREE"
+            },
+     
+           "THEME_TREE_ONLY_TRENDS" :
+            {
+                "data_type" : "THEME_TREE_ONLY_TRENDS",
+                "configuration_type" : "UUID_CONFIG_ENTRIES_THEME_TREE_ONLY_TRENDS",
+                "configuration" :  {"uuid_configuration":"THEME_TREE_ONLY_TRENDS","kind":"CONF_ENTRIES","graph":{"tooltip":"Y","navigation":"N"},"entries":{},"theme_cloud":{"font_family":"SourceSansProB","orientation_count":1,"font_sizes_min":9,"font_sizes_max":36,"show_total_top_words":2147483647,"image_sizes_min":14,"image_sizes_max":72}} ,
+                "payload_type" : "PAYLOAD_THEME_TREE"
+            },
+     
+           "THEME_TREE" :
+            {
+                "data_type" : "THEME_TREE",
+                "configuration_type" : "UUID_CONFIG_ENTRIES_THEME_TREE",
+                "configuration" :  {"uuid_configuration":"THEME_TREE","kind":"CONF_ENTRIES","graph":{"tooltip":"Y","navigation":"N"},"entries":{},"theme_cloud":{"font_family":"SourceSansProB","orientation_count":1,"font_sizes_min":9,"font_sizes_max":36,"show_total_top_words":2147483647,"image_sizes_min":14,"image_sizes_max":72}} ,
+                "payload_type" : "PAYLOAD_THEME_TREE"
+            },
+     
+           "THEME_PIE_CHART" :
+            {
+                "data_type" : "THEME_PIE_CHART",
+                "configuration_type" : "UUID_CONFIG_THEME_PIE_CHART",
+                "configuration" :  {"uuid_configuration":"THEME_PIE_CHART","kind":"CONF_GRAPHS","graph":{"legend":"b","label":"Y","shape":"ROUND","type_graph":"PIE_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_change":"Y"},"native_chart":false,"title_character_limit":75,"description_character_limit":75} ,
+                "payload_type" : "PAYLOAD_THEME_TREE"
+            },
+     
+           "THEME_WHEEL_CHART" :
+            {
+                "data_type" : "THEME_WHEEL_CHART",
+                "configuration_type" : "UUID_CONFIG_THEME_WHEEL_CHART",
+                "configuration" :  {"uuid_configuration":"THEME_WHEEL_CHART","kind":"CONF_GRAPHS","graph":{"legend":"b","label":"Y","shape":"ROUND","type_graph":"PIE_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_change":"Y"},"native_chart":false,"title_character_limit":75,"description_character_limit":75} ,
+                "payload_type" : "PAYLOAD_THEME_TREE"
+            },
+     
+           "THEME_COLUMN_CHART" :
+            {
+                "data_type" : "THEME_COLUMN_CHART",
+                "configuration_type" : "UUID_CONFIG_THEME_COLUMN_CHART",
+                "configuration" :  {"uuid_configuration":"THEME_COLUMN_CHART","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"CATEGORY","type_graph":"COLUMN_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_upgrade_message":"N","show_change":"Y"},"bar_chart":{"stacking_mode":"NONE","orientation_mode":"VERTICAL"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_THEME_TREE"
+            },
+     
+           "THEME_COLUMN_CHART_STACKED_PERC" :
+            {
+                "data_type" : "THEME_COLUMN_CHART_STACKED_PERC",
+                "configuration_type" : "UUID_CONFIG_THEME_COLUMN_CHART_STACKED_PERC",
+                "configuration" :  {"uuid_configuration":"THEME_COLUMN_CHART_STACKED_PERC","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"CATEGORY","type_graph":"COLUMN_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_upgrade_message":"N","show_change":"Y"},"bar_chart":{"stacking_mode":"STACK_PERCENT","orientation_mode":"VERTICAL"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_THEME_TREE"
+            },
+     
+           "THEME_COLUMN_CHART_STACKED" :
+            {
+                "data_type" : "THEME_COLUMN_CHART_STACKED",
+                "configuration_type" : "UUID_CONFIG_THEME_COLUMN_CHART_STACKED",
+                "configuration" :  {"uuid_configuration":"THEME_COLUMN_CHART_STACKED_PERC","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"CATEGORY","type_graph":"COLUMN_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_upgrade_message":"N","show_change":"Y"},"bar_chart":{"stacking_mode":"STACK_PERCENT","orientation_mode":"VERTICAL"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_THEME_TREE"
+            },
+     
+           "THEME_BAR_CHART" :
+            {
+                "data_type" : "THEME_BAR_CHART",
+                "configuration_type" : "UUID_CONFIG__THEME_BAR_CHART",
+                "configuration" :  {"uuid_configuration":"THEME_BAR_CHART","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"CATEGORY","type_graph":"COLUMN_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_upgrade_message":"N","show_change":"Y"},"bar_chart":{"stacking_mode":"NONE","orientation_mode":"HORIZONTAL"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_THEME_TREE"
+            },
+     
+           "THEME_BAR_CHART_STACKED_PERC" :
+            {
+                "data_type" : "THEME_BAR_CHART_STACKED_PERC",
+                "configuration_type" : "UUID_CONFIG_THEME_BAR_CHART_STACKED_PERC",
+                "configuration" :  {"uuid_configuration":"THEME_BAR_CHART_STACKED_PERC","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"CATEGORY","type_graph":"COLUMN_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_upgrade_message":"N","show_change":"Y"},"bar_chart":{"stacking_mode":"STACK_PERCENT","orientation_mode":"HORIZONTAL"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_THEME_TREE"
+            },
+     
+           "THEME_BAR_CHART_STACKED" :
+            {
+                "data_type" : "THEME_BAR_CHART_STACKED",
+                "configuration_type" : "UUID_CONFIG_THEME_BAR_CHART_STACKED",
+                "configuration" :  {"uuid_configuration":"THEME_BAR_CHART_STACKED","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"CATEGORY","type_graph":"COLUMN_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_upgrade_message":"N","show_change":"Y"},"bar_chart":{"stacking_mode":"STACK","orientation_mode":"HORIZONTAL"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_THEME_TREE"
+            },
+     
+           "THEME_TREE_MAP" :
+            {
+                "data_type" : "THEME_TREE_MAP",
+                "configuration_type" : "UUID_CONFIG_THEME_TREEMAP",
+                "configuration" :  {"uuid_configuration":"THEME_TREE_MAP","kind":"CONF_ENTRIES","graph":{"tooltip":"Y","navigation":"N"},"entries":{},"theme_cloud":{"font_family":"SourceSansProB","orientation_count":1,"font_sizes_min":9,"font_sizes_max":36,"show_total_top_words":2147483647,"image_sizes_min":14,"image_sizes_max":72}} ,
+                "payload_type" : "PAYLOAD_THEME_TREE"
+            },
+     
+           "THEME_SORTED" :
+            {
+                "data_type" : "THEME_SORTED",
+                "configuration_type" : "UUID_CONFIG_THEME_SORTED",
+                "configuration" :  {"uuid_configuration":"THEME_SORTED","kind":"CONF_ENTRIES","graph":{"tooltip":"Y","navigation":"N"},"entries":{},"theme_cloud":{"font_family":"SourceSansProB","orientation_count":1,"font_sizes_min":9,"font_sizes_max":36,"show_total_top_words":2147483647,"image_sizes_min":14,"image_sizes_max":72}} ,
+                "payload_type" : "PAYLOAD_THEME_TREE"
+            },
+     
+           "TEXT_HEADLINE" :
+            {
+                "data_type" : "TEXT_HEADLINE",
+                "configuration_type" : "UUID_CONFIG_TEXT_HEADLINE",
+                "configuration" :  {"uuid_configuration":"TEXT_HEADLINE","kind":"CONF_TEXT_WIDGET","text_widget":{"content_type":"HEADLINE","holding_image":false,"default_values":{"headline_alignment":"LEFT","headline_font_size":20}}} ,
+                "payload_type" : "PAYLOAD_TEXT"
+            },
+     
+           "TEXT_PARAGRAPH" :
+            {
+                "data_type" : "TEXT_PARAGRAPH",
+                "configuration_type" : "UUID_CONFIG_TEXT_PARAGRAPH",
+                "configuration" :  {"uuid_configuration":"TEXT_PARAGRAPH","kind":"CONF_TEXT_WIDGET","text_widget":{"content_type":"PARAGRAPH","holding_image":false,"default_values":{"text_alignment":"LEFT","text_font_size":14}}} ,
+                "payload_type" : "PAYLOAD_TEXT"
+            },
+     
+           "TEXT_HEADLINE_PARAGRAPH" :
+            {
+                "data_type" : "TEXT_HEADLINE_PARAGRAPH",
+                "configuration_type" : "UUID_CONFIG_TEXT_HEADLINE_PARAGRAPH",
+                "configuration" :  {"uuid_configuration":"TEXT_HEADLINE_PARAGRAPH","kind":"CONF_TEXT_WIDGET","text_widget":{"content_type":"HEADLINE_PARAGRAPH","holding_image":false,"default_values":{"headline_alignment":"LEFT","text_alignment":"LEFT","headline_font_size":20,"text_font_size":14}}} ,
+                "payload_type" : "PAYLOAD_TEXT"
+            },
+     
+           "TEXT_IMAGE" :
+            {
+                "data_type" : "TEXT_IMAGE",
+                "configuration_type" : "UUID_CONFIG_TEXT_IMAGE",
+                "configuration" :  {"uuid_configuration":"TEXT_IMAGE","kind":"CONF_TEXT_WIDGET","text_widget":{"content_type":"IMAGE","holding_image":true}} ,
+                "payload_type" : "PAYLOAD_TEXT"
+            },
+     
+           "TEXT_TEXT_TOP" :
+            {
+                "data_type" : "TEXT_TEXT_TOP",
+                "configuration_type" : "UUID_CONFIG_TEXT_TEXT_TOP",
+                "configuration" :  {"uuid_configuration":"TEXT_TEXT_TOP","kind":"CONF_TEXT_WIDGET","text_widget":{"content_type":"ALL","text_position":"TOP","holding_image":true,"default_values":{"headline_alignment":"LEFT","text_alignment":"LEFT","headline_font_size":20,"text_font_size":14}}} ,
+                "payload_type" : "PAYLOAD_TEXT"
+            },
+     
+           "TEXT_TEXT_RIGHT" :
+            {
+                "data_type" : "TEXT_TEXT_RIGHT",
+                "configuration_type" : "UUID_CONFIG_TEXT_TEXT_RIGHT",
+                "configuration" :  {"uuid_configuration":"TEXT_TEXT_RIGHT","kind":"CONF_TEXT_WIDGET","text_widget":{"content_type":"ALL","text_position":"RIGHT","holding_image":true,"default_values":{"headline_alignment":"RIGHT","text_alignment":"RIGHT","headline_font_size":20,"text_font_size":14}}} ,
+                "payload_type" : "PAYLOAD_TEXT"
+            },
+     
+           "TEXT_TEXT_BOTTOM" :
+            {
+                "data_type" : "TEXT_TEXT_BOTTOM",
+                "configuration_type" : "UUID_CONFIG_TEXT_TEXT_BOTTOM",
+                "configuration" :  {"uuid_configuration":"TEXT_TEXT_BOTTOM","kind":"CONF_TEXT_WIDGET","text_widget":{"content_type":"ALL","text_position":"BOTTOM","holding_image":true,"default_values":{"headline_alignment":"LEFT","text_alignment":"LEFT","headline_font_size":20,"text_font_size":14}}} ,
+                "payload_type" : "PAYLOAD_TEXT"
+            },
+     
+           "TEXT_TEXT_LEFT" :
+            {
+                "data_type" : "TEXT_TEXT_LEFT",
+                "configuration_type" : "UUID_CONFIG_TEXT_TEXT_LEFT",
+                "configuration" :  {"uuid_configuration":"TEXT_TEXT_LEFT","kind":"CONF_TEXT_WIDGET","text_widget":{"content_type":"ALL","text_position":"LEFT","holding_image":true,"default_values":{"headline_alignment":"LEFT","text_alignment":"LEFT","headline_font_size":20,"text_font_size":14}}} ,
+                "payload_type" : "PAYLOAD_TEXT"
+            },
+     
+           "TEXT_VIDEO" :
+            {
+                "data_type" : "TEXT_VIDEO",
+                "configuration_type" : "UUID_CONFIG_TEXT_VIDEO",
+                "configuration" :  {"uuid_configuration":"TEXT_VIDEO","kind":"CONF_TEXT_WIDGET","text_widget":{"content_type":"VIDEO","holding_image":false}} ,
+                "payload_type" : "PAYLOAD_TEXT"
+            },
+     
+           "TEXT_VIDEO_TOP" :
+            {
+                "data_type" : "TEXT_VIDEO_TOP",
+                "configuration_type" : "UUID_CONFIG_TEXT_VIDEO_TOP",
+                "configuration" :  {"uuid_configuration":"TEXT_VIDEO","kind":"CONF_TEXT_WIDGET","text_widget":{"content_type":"VIDEO","text_position":"BOTTOM","holding_image":false,"default_values":{"headline_alignment":"LEFT","text_alignment":"LEFT","headline_font_size":20,"text_font_size":14}}} ,
+                "payload_type" : "PAYLOAD_TEXT"
+            },
+     
+           "NONE_DATA" :
+            {
+                "data_type" : "NONE_DATA",
+                "configuration_type" : "UUID_CONFIG_TOPICS_COMPARE",
+                "configuration" :  {"uuid_configuration":"NONE_DATA","kind":"CONF_TOPIC_COMPARE"} ,
+                "payload_type" : "PAYLOAD_TOPICS_COMPARE"
+            },
+     
+           "PAGE_BREAK" :
+            {
+                "data_type" : "PAGE_BREAK",
+                "configuration_type" : "UUID_CONFIG_PAGE_BREAK",
+                "configuration" :  {"uuid_configuration":"PAGE_BREAK","kind":"CONF_PAGE_BREAK","page_break":{}} ,
+                "payload_type" : "PAYLOAD_PAGE_BREAK"
+            },
+     
+           "MESSAGE_DIFFUSION_ENTRIES_DATA_TYPE" :
+            {
+                "data_type" : "MESSAGE_DIFFUSION_ENTRIES_DATA_TYPE",
+                "configuration_type" : "UUID_CONFIG_MESSAGE_DIFFUSION_ENTRIES",
+                "configuration" :  {"uuid_configuration":"MESSAGE_DIFFUSION_ENTRIES_DATA_TYPE","kind":"CONF_GRAPHS","graph":{"navigation":"N"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_MESSAGE_DIFFUSION_ENTRIES"
+            },
+     
+           "MESSAGE_DIFFUSION_ENTRIES_DATA_TYPE" :
+            {
+                "data_type" : "MESSAGE_DIFFUSION_ENTRIES_DATA_TYPE",
+                "configuration_type" : "UUID_CONFIG_MESSAGE_DIFFUSION_LEADERS",
+                "configuration" :  {"uuid_configuration":"MESSAGE_DIFFUSION_ENTRIES_DATA_TYPE","kind":"CONF_GRAPHS","graph":{"navigation":"N"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_MESSAGE_DIFFUSION_ENTRIES"
+            },
+     
+           "MESSAGE_DIFFUSION_ENTRIES_DATA_TYPE" :
+            {
+                "data_type" : "MESSAGE_DIFFUSION_ENTRIES_DATA_TYPE",
+                "configuration_type" : "UUID_CONFIG_MESSAGE_DIFFUSION_LEADERS_ENTRIES",
+                "configuration" :  {"uuid_configuration":"MESSAGE_DIFFUSION_ENTRIES_DATA_TYPE","kind":"CONF_GRAPHS","graph":{"navigation":"N"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_MESSAGE_DIFFUSION_ENTRIES"
+            },
+     
+           "DOCUMENT_CLUSTER" :
+            {
+                "data_type" : "DOCUMENT_CLUSTER",
+                "configuration_type" : "UUID_CONFIG_DOCUMENT_CLUSTER",
+                "configuration" :  {"uuid_configuration":"DOCUMENT_CLUSTER","kind":"CONF_GRAPHS","graph":{"navigation":"N"}} ,
+                "payload_type" : "PAYLOAD_DOCUMENT_CLUSTER"
+            },
+     
+           "INFLUENCERS_NETWORK" :
+            {
+                "data_type" : "INFLUENCERS_NETWORK",
+                "configuration_type" : "UUID_CONFIG_INFLUENCERS_NETWORK",
+                "configuration" :  {"uuid_configuration":"INFLUENCERS_NETWORK","kind":"CONF_GRAPHS","graph":{"navigation":"N"}} ,
+                "payload_type" : "PAYLOAD_INFLUENCER_NETWORK"
+            },
+     
+           "INFLUENCERS_NETWORK_GRAPH" :
+            {
+                "data_type" : "INFLUENCERS_NETWORK_GRAPH",
+                "configuration_type" : "UUID_CONFIG_INFLUENCERS_NETWORK_GRAPH",
+                "configuration" :  {"uuid_configuration":"INFLUENCERS_NETWORK_GRAPH","kind":"CONF_GRAPHS","graph":{"navigation":"N"}} ,
+                "payload_type" : "PAYLOAD_INFLUENCER_NETWORK"
+            },
+     
+           "INFLUENCERS_NETWORK_INFLUENCERS" :
+            {
+                "data_type" : "INFLUENCERS_NETWORK_INFLUENCERS",
+                "configuration_type" : "UUID_CONFIG_INFLUENCERS_NETWORK_INFLUENCERS",
+                "configuration" :  {"uuid_configuration":"INFLUENCERS_NETWORK_INFLUENCERS","kind":"CONF_GRAPHS","graph":{"navigation":"N"}} ,
+                "payload_type" : "PAYLOAD_INFLUENCER_NETWORK"
+            },
+     
+           "INFLUENCERS_NETWORK_I_ONE" :
+            {
+                "data_type" : "INFLUENCERS_NETWORK_I_ONE",
+                "configuration_type" : "UUID_CONFIG_INFLUENCERS_NETWORK_I_ONE",
+                "configuration" :  {"uuid_configuration":"INFLUENCERS_NETWORK_I_ONE","kind":"CONF_GRAPHS","graph":{"navigation":"N"}} ,
+                "payload_type" : "PAYLOAD_INFLUENCER_NETWORK"
+            },
+     
+           "EXTERNAL_DATA_WIDGET" :
+            {
+                "data_type" : "EXTERNAL_DATA_WIDGET",
+                "configuration_type" : "UUID_CONFIG_EXTERNAL_DATA",
+                "configuration" :  {"uuid_configuration":"EXTERNAL_DATA_WIDGET","kind":"CONF_GRAPHS","graph":{"legend":"r","label":"Y","shape":"CATEGORY","type_graph":"COLUMN_CHART","annotation":"N","interactivity":"Y","tracking":"Y","toggling":"N","tooltip":"Y","navigation":"N","resize":"Y","select_and_zoom":"","realtime":"N","time_zone":"","show_upgrade_message":"N","show_change":"Y"},"bar_chart":{"stacking_mode":"NONE","orientation_mode":"VERTICAL"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_EXTERNAL_DATA"
+            },
+     
+           "TRENDS_TABLE" :
+            {
+                "data_type" : "TRENDS_TABLE",
+                "configuration_type" : "UUID_CONFIG_TRENDS_TABLE",
+                "configuration" :  {"uuid_configuration":"TRENDS_TABLE","kind":"CONF_GRAPHS","graph":{"navigation":"N"},"data_table":{"show_total_top":"Y","show_total_all":"Y","show_change":"Y"}} ,
+                "payload_type" : "PAYLOAD_TRENDS_TABLE"
+            },
+     
+           "TOP_ELEMENTS_TABLE" :
+            {
+                "data_type" : "TOP_ELEMENTS_TABLE",
+                "configuration_type" : "UUID_CONFIG_TOP_ELEMENTS_TABLE",
+                "configuration" :  {"uuid_configuration":"TOP_ELEMENTS_TABLE","kind":"CONF_GRAPHS","graph":{"navigation":"N"},"data_table":{"show_total_top":"Y","show_total_all":"Y","show_change":"Y"}} ,
+                "payload_type" : "PAYLOAD_TRENDS_TABLE"
+            },
+     
+           "TOP_IMAGES" :
+            {
+                "data_type" : "TOP_IMAGES",
+                "configuration_type" : "UUID_CONFIG_TOP_IMAGES",
+                "configuration" :  {"uuid_configuration":"TOP_IMAGES","kind":"CONF_GRAPHS","graph":{"navigation":"N"},"data_table":{"show_total_top":"Y","show_total_all":"Y","show_change":"Y"}} ,
+                "payload_type" : "PAYLOAD_TRENDS_TABLE"
+            },
+     
+           "EXTERNAL_TRENDS_LIST" :
+            {
+                "data_type" : "EXTERNAL_TRENDS_LIST",
+                "configuration_type" : "UUID_CONFIG_EXTERNAL_TRENDS_LIST",
+                "configuration" :  {"uuid_configuration":"EXTERNAL_TRENDS_LIST","kind":"CONF_GRAPHS","graph":{"navigation":"N"},"data_table":{"show_total_top":"Y","show_total_all":"Y","show_change":"Y"}} ,
+                "payload_type" : "PAYLOAD_EXTERNAL_TRENDS"
+            },
+     
+           "EXTERNAL_TRENDS_CLOUD" :
+            {
+                "data_type" : "EXTERNAL_TRENDS_CLOUD",
+                "configuration_type" : "UUID_CONFIG_EXTERNAL_TRENDS_CLOUD",
+                "configuration" :  {"uuid_configuration":"EXTERNAL_TRENDS_CLOUD","kind":"CONF_ENTRIES","graph":{"tooltip":"Y","navigation":"N"},"entries":{},"theme_cloud":{"font_family":"SourceSansProB","orientation_count":1,"font_sizes_min":9,"font_sizes_max":36,"show_total_top_words":2147483647,"image_sizes_min":14,"image_sizes_max":72}} ,
+                "payload_type" : "PAYLOAD_EXTERNAL_TRENDS"
+            },
+     
+           "SUMMARY_WIDGET" :
+            {
+                "data_type" : "SUMMARY_WIDGET",
+                "configuration_type" : "UUID_CONFIG_SUMMARY_WIDGET",
+                "configuration" :  {"uuid_configuration":"SUMMARY_WIDGET","kind":"CONF_GRAPHS","graph":{"type_graph":"SUMMARY"},"native_chart":false} ,
+                "payload_type" : "PAYLOAD_SUMMARY_WIDGET"
+            },
+     
+           "CAMPAIGNS_TABLE" :
+            {
+                "data_type" : "CAMPAIGNS_TABLE",
+                "configuration_type" : "UUID_CONFIG_CAMPAIGNS_TABLE",
+                "configuration" :  {"uuid_configuration":"CAMPAIGNS_TABLE","kind":"CONF_GRAPHS","graph":{"navigation":"N"},"data_table":{"show_total_top":"Y","show_total_all":"Y","show_change":"Y"}} ,
+                "payload_type" : "PAYLOAD_CAMPAIGNS_TABLE"
+            },
+     
+     NO_CONF: ''
+}

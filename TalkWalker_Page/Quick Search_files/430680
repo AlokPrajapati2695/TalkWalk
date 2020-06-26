@@ -1,0 +1,42 @@
+window.__lc = window.__lc || {}; 
+ window.__lc.license = 1776231; 
+ window.__lc.group =  1230; 
+ window.__lc.chat_between_groups = false; 
+ window.__lc.params = [ 
+ { name: 'Business Name', value: 'Talkwalker ' }, 
+ { name: 'Groupid', value: 1230 }, 
+ { name: 'Clientid', value: 970 }, 
+ { name: 'qs', value: 'TBA' }, 
+ { name: 'Faq Backup', value: 'https://admin.chatsystem.io/iframe/f5bd51715fdf634c255adc863b2ffe495986075c' } 
+ ]; 
+ (function() { 
+ var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true; 
+ lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js'; 
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s); 
+ })(); 
+ var LC_API = LC_API || {};
+(function() {
+var chatWait = setInterval(function() {
+var chatEl = document.getElementById('livechat-full');
+if (chatEl) {
+clearInterval(chatWait);
+var iframe = document.getElementById('livechat-compact-view');
+var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+var aStyles = document.getElementsByTagName("style");
+var hidePowered = false;
+var checkP = innerDoc.body.innerHTML.search('hide-new-powered');
+if(checkP > -1){
+hidePowered = true;
+return false;
+}
+var client_url = window.location.hostname.replace(/www./g,'');
+var poweredBy = 'Powered By <a href="https://leadchat.com/?utm_source=chat_window&utm_medium=referral&utm_campaign=' + client_url + '" style="text-decoration: underline;color: #888;cursor:pointer" target="_blank">ChatSystem</a>';
+chatEl.insertAdjacentHTML('beforeend', '<div id="new-powered" style="font-family: Lato, sans-serif;position: absolute;bottom: 0;box-sizing: border-box;text-align: right;height: 30px;line-height: 30px;color: #b4b4b4;font-size: 10px;background: whitesmoke;width: calc(100% - 30px);right: 0;margin-right: 15px;padding-right: 10px;cursor:default" class="notranslate">' + poweredBy + '</div>');
+}
+}, 250);
+})();
+LC_API.on_message = function(data){
+if (data.text.indexOf('Name:') !=-1){
+dataLayer.push({'eventCategory': "Lead",'eventAction': "Captured",'eventLabel': "Chat Lead",'event': 'chat-lead'});
+}
+};

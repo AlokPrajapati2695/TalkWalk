@@ -1,0 +1,643 @@
+<!doctype html>
+<html lang="en-us" class="">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+        <meta name="description" content="2 social media monitoring &amp; listening tools to make your life as a marketer easier!"/>
+        <meta name="keywords" content=""/>
+        <meta name="author" content="talkwalker.com"/>
+        
+        <title>Social Media Monitoring for free! Here are 2 tools to make your job easier! - Talkwalker</title>
+
+        <script src="https://www.talkwalker.com/assets/bundles/bundle.front.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://www.talkwalker.com/assets/frontend/styles/critical.css">
+        <link rel="stylesheet" type="text/css" href="https://www.talkwalker.com/assets/frontend/styles/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="https://www.talkwalker.com/assets/frontend/styles/main.min.css">
+        <link rel="stylesheet" type="text/css" href="https://www.talkwalker.com/assets/frontend/styles/tw-manual-custom.min.css">
+
+        <!-- Updated styles -->
+        <link rel="stylesheet" type="text/css" href="https://www.talkwalker.com/assets/fiasco/styles/global.css">
+                <link rel="stylesheet" type="text/css" href="https://www.talkwalker.com/assets/fiasco/styles/forms.css">
+                <link rel="stylesheet" type="text/css" href="https://www.talkwalker.com/assets/fiasco/styles/nav.css">
+        <link rel="stylesheet" type="text/css" href="https://www.talkwalker.com/assets/fiasco/styles/language.css">
+        <link rel="stylesheet" type="text/css" href="https://www.talkwalker.com/assets/fiasco/styles/hero.css">
+        <link rel="stylesheet" type="text/css" href="https://www.talkwalker.com/assets/fiasco/styles/footer.css">
+        <link rel="stylesheet" type="text/css" href="https://www.talkwalker.com/assets/fiasco/styles/blocks.css">
+        <link rel="stylesheet" type="text/css" href="https://www.talkwalker.com/assets/fiasco/styles/home.css">
+
+        <link rel="stylesheet" type="text/css" href="https://www.talkwalker.com/assets/fiasco/styles/pr-comms.css">
+        <link rel="stylesheet" type="text/css" href="https://www.talkwalker.com/assets/fiasco/styles/enterprise.css">        
+         
+        
+        <!-- New version of Bootstrap JS -->
+        <script src="https://www.talkwalker.com/assets/frontend/js/bootstrap.min.js"></script>
+
+        <!-- script to watch items in viewport -->
+        <script src="https://www.talkwalker.com/assets/fiasco/js/in-view.min.js"></script>
+
+        <!-- Additional / Updated javascript -->
+                <script src="https://www.talkwalker.com/assets/fiasco/js/front.js"></script>
+
+        <link rel="shortcut icon" href="https://www.talkwalker.com/assets/frontend/media/favicon.ico"/>
+        <link rel="icon" href="https://www.talkwalker.com/assets/frontend/media/favicon.ico"/>
+
+        
+        <meta property="og:url" content="https://www.talkwalker.com/free-social-media-monitoring-analytics-tools" />
+        <meta property="og:title" content="Social Media Monitoring for free! Here are 2 tools to make your job easier!" />
+        <meta property="og:site_name" content="Talkwalker" />
+        <meta property="og:description" content="2 social media monitoring &amp; listening tools to make your life as a marketer easier!" />
+        <meta property="og:image" content="https://www.talkwalker.com/images/page-headers/how-to-agencies.jpg" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@talkwalker" />
+        <meta name="twitter:creator" content="@talkwalker" />
+        <meta name="twitter:title" content="Social Media Monitoring for free! Here are 2 tools to make your job easier!" />
+        <meta name="twitter:description" content="2 social media monitoring &amp; listening tools to make your life as a marketer easier!" />
+        <meta name="twitter:image" content="https://www.talkwalker.com/images/page-headers/how-to-agencies.jpg" />
+
+                <link rel="alternate" hreflang="en-us" href="https://www.talkwalker.com/free-social-media-monitoring-analytics-tools" />
+                <link rel="alternate" hreflang="fr" href="https://www.talkwalker.com/fr/des-outils-gratuits-de-veille-et-danalyse-du-web-et-des-reseaux-sociaux" />
+                <link rel="alternate" hreflang="de" href="https://www.talkwalker.com/de/kostenlose-social-media-monitoring-analytics-tools" />
+                <link rel="alternate" hreflang="es" href="https://www.talkwalker.com/es/herramientas-gratuitas-de-monitorization-y-analisis-de-redes-sociales" />
+                <link rel="alternate" hreflang="it" href="https://www.talkwalker.com/it/strumenti-gratuiti-per-lanalisi-e-il-monitoraggio-dei-social-media" />
+                <link rel="alternate" hreflang="pt" href="https://www.talkwalker.com/pt/ferramentas-gratuitas-de-monitoramento-e-analise-de-midia-social" />
+                <link rel="alternate" hreflang="jp" href="https://www.talkwalker.com/jp/free-social-media-monitoring-analytics-tools" />
+                <link rel="alternate" hreflang="x-default" href="https://www.talkwalker.com/free-social-media-monitoring-analytics-tools" />
+        <meta name="google-site-verification" content="jPQQbSe6hawzdqoedLbsgyq5czyU_n37XV4hEzZZBTk" />
+<meta name="google-site-verification" content="IWwptSLWLN5fd_dfLWjGGY3MCczAKu_bt3g4OM-vAhE" />
+
+        
+    </head>
+    <body>
+
+                
+    <div class="tw-nav" id="tw-nav">
+    <div class="lang-overlay" style="display:none">
+        <div class="overlay-close"><span>Close</span></div>
+        <div class="overlay-content">
+            <div class="container">
+                <div class="h2 overlay-title">Choose your language</div>
+                <div class="language-links">
+                    <a id="en" href="https://www.talkwalker.com/free-social-media-monitoring-analytics-tools" class="lang-option active" onclick="return sl('en'); void(0)">
+    English
+</a>
+<a id="fr" href="https://www.talkwalker.com/fr/des-outils-gratuits-de-veille-et-danalyse-du-web-et-des-reseaux-sociaux" class="lang-option " onclick="return sl('fr'); void(0)">
+    Français
+</a>
+<a id="de" href="https://www.talkwalker.com/de/kostenlose-social-media-monitoring-analytics-tools" class="lang-option " onclick="return sl('de'); void(0)">
+    Deutsch
+</a>
+<a id="es" href="https://www.talkwalker.com/es/herramientas-gratuitas-de-monitorization-y-analisis-de-redes-sociales" class="lang-option " onclick="return sl('es'); void(0)">
+    Español
+</a>
+<a id="it" href="https://www.talkwalker.com/it/strumenti-gratuiti-per-lanalisi-e-il-monitoraggio-dei-social-media" class="lang-option " onclick="return sl('it'); void(0)">
+    Italiano
+</a>
+<a id="pt" href="https://www.talkwalker.com/pt/ferramentas-gratuitas-de-monitoramento-e-analise-de-midia-social" class="lang-option " onclick="return sl('pt'); void(0)">
+    Português
+</a>
+<a id="jp" href="https://www.talkwalker.com/jp/free-social-media-monitoring-analytics-tools" class="lang-option " onclick="return sl('jp'); void(0)">
+    Japanese
+</a>
+
+                </div>
+                <div class="overlay-description">Do you know that we are indexing all major social networks in <span class="text-blue">187 languages</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="nav-shorts"> <a href="tel:+ 1 646 712 9441" class="short" id="phone-num">+ 1 646 712 9441</a>
+                <a id="client-login" href="https://app.talkwalker.com/app/login" class="short login">Client Login</a>
+                <a id="contact-us" href="https://www.talkwalker.com/contact-us" class="short contact hidden-xs">Contact Us</a>
+                <a id="alerts-search" href="https://www.talkwalker.com/free-social-media-monitoring-analytics-tools" class="short search">Alerts / Search</a>
+              
+        <div class="lang">
+            <a class="actual-lang" href="#">English</a>
+        </div> 
+    </div>
+    
+    <nav class="navbar nav-main affix-top navbar-mobile" data-spy="affix" data-offset-top="51" id="nav-main-mobile">
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle x collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://www.talkwalker.com">
+                    <img src="https://www.talkwalker.com/assets/fiasco/media/talkwalker-logo-white.svg" alt="tw-logo" class="logo-full">
+                </a>
+            </div>
+            <div class="navbar-collapse collapse" id="nav-main-mobile-pages">
+                            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar nav-main affix-top navbar-desktop" data-spy="affix" data-offset-top="51" id="nav-main">
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="navbar-header col-md-2">
+                <a class="navbar-brand" href="https://www.talkwalker.com">
+                    <img src="https://www.talkwalker.com/assets/fiasco/media/talkwalker-logo-white.svg" alt="tw-logo" class="logo-full">
+                </a>
+            </div>
+            <div class="navbar-collapse col-sm-offset-3 col-md-offset-2 collapse" id="nav-main-pages">
+                                  
+                <div class="navbar-special">
+                    <a href="https://www.talkwalker.com/free-demo" class="tw-button">
+                        <span>Free Demo</span>
+                        <span class="tw-button-bg"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="tw-content " style="padding-top:161px">
+
+
+    
+<div class="tw-block block-cover " id="block1401">
+
+    <div style="background-image: url('https://www.talkwalker.com/images/page-headers/how-to-agencies.jpg')" class="picture">
+
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="white-text">
+
+                <h1>Free Social Media Monitoring Tools</h1>
+
+                <p>Convert real-time customer conversation into your next marketing campaign</p>
+
+                                <a href="javascript:bookmark(1394)" class="tw-button button-red" id="free-demo-cover">Try it now!</a>
+                            </div>
+
+        </div>
+
+        
+        
+
+    </div>
+
+
+</div><div class="tw-block block-nospace-top" id="block1394">
+
+    <div class="container">
+        
+        <div class="tw-heading">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <h5></h5>
+                    
+                </div>
+            </div>
+        </div>
+      
+        <div class="row">            
+            <div class="col-md-6" id="panel984">   
+    <h5 style="text-align: center;">    
+        <a href="/alerts">            Talkwalker Alerts   
+            </a>    </h5>
+    <a href="/alerts">        <img title="" alt="Talkwalker Alerts" src="https://www.talkwalker.com/images/free-toolkit/talkwalker-alerts.gif" class="no-strech">    
+        </a>    
+    <p>Talkwalker Alerts is the&nbsp;<strong>only </strong>free alerts system that follows your <a href="https://www.talkwalker.com/blog/digital-footprint" target="_blank">digital footprint</a> across the internet and Twitter!</p>
+<p id="alerts-freetools-1" style="text-align:center;"><a id="alerts-freetoolspage-1" class="tw-button button-red" href="https://www.talkwalker.com/alerts">Try it now</a></p>
+
+      
+
+
+
+</div><div class="col-md-6" id="panel983">   
+    <h5 style="text-align: center;">    
+        <a href="/social-media-analytics-search">            Talkwalker’s Free Social Search   
+            </a>    </h5>
+    <a href="/social-media-analytics-search">        <img title="" alt="Talkwalker’s Free Social Search" src="https://www.talkwalker.com/images/free-toolkit/talkwalker-free-search.gif" class="no-strech">    
+        </a>    
+    <p>Talkwalker&rsquo;s Free social search monitors every conversation about your brand, hashtags and competition on social media</p>
+<p style="text-align:center;" id="freesearch-tools-1"><a href="https://www.talkwalker.com/social-media-analytics-search" class="tw-button button-red" id="freesearch-freetools-1">Try it now</a></p>
+
+      
+
+
+
+</div>
+        </div>
+
+    </div>
+
+</div><div class="tw-block " id="block1361">
+    <div class="container">
+        <div class="tw-block-content">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2><span style="display:block;text-align:center;">W<span style="text-transform: lowercase;">e can’t give you a formula for kickass marketing campaigns, but our free tools aka social media tracker(s) CAN help you every step of the way and make social media monitoring easy</span></span></h2>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div><div class="tw-block " id="block1377">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-6  ">
+                                                     
+                        <a href="https://www.talkwalker.com/social-media-analytics-search">
+                                        <img src="#" class="lazy" title="" alt="Social media monitoring has never been easier with Talkwalker&#039;s Free Social Search" data-src="https://www.talkwalker.com/images/step-1.gif">
+                     
+                        </a>
+                                                </div>
+            <div class="col-sm-6">
+
+                <h3 class="heading-blue"></h3>
+
+                <p><span style="font-size: medium;"><strong><span style="font-size: x-large;">Get in on every single conversation about your brand with just one click</span></strong></span></p>
+<p>Tired of tearing your hair, manually<a target="_blank" href="https://www.talkwalker.com/blog/social-media-monitoring-tools"> monitoring social media</a> and following every conversation around your hashtags? Let us do the frustrating bits and collate all your brand mentions so you can concentrate on the fun stuff.</p>
+<ul class="tw-list">
+<li>With our free marketing toolkit, we trace your social footprint online.<br /><br /></li>
+<li>Provide insights on posts that drive the most engagement.&nbsp;<br /><br /></li>
+<li>And tell you what social channels work best for your brand.</li>
+</ul>
+<p style="text-align: center;" id="alerts-box-1"><a href="https://www.talkwalker.com/social-media-analytics-search" class="tw-button button-red" id="free-toolkit-cta-en-1">Try Free Social Search</a></p>
+                
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="tw-block " id="block1375">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-sm-6 col-sm-push-6  ">
+
+                                     
+                        <a href="https://www.talkwalker.com/social-media-analytics-search">
+                                        <img src="#" class="lazy" title="" alt="Monitor social media and find your next big hashtag - for free!" data-src="https://www.talkwalker.com/images/landing/free-tools/step-2-quote.gif">
+                     
+                        </a>
+                                    
+            </div>
+
+            <div class="col-sm-6 col-sm-pull-6">
+
+                <h3 class="heading-greeny-blue"></h3>
+
+                <p><span style="font-size: x-large;"><strong>Identify your next big hashtag BEFORE it starts trending</strong></span></p>
+<p>Take the load off your content team. Discover and <a target="_blank" href="https://www.talkwalker.com/blog/8-free-social-media-management-tools-to-get-you-started">monitor social media</a> trending topics before they go viral.</p>
+<ul class="tw-list">
+<li dir="ltr">
+<p dir="ltr">Target your audience better by giving them content they really want to read.</p>
+</li>
+<li dir="ltr">
+<p dir="ltr">Find out what makes your audience tick and turn it into your next cash cow.</p>
+<p dir="ltr">&nbsp;</p>
+<p id="alerts-box-1" style="text-align: center;"><a id="-free-toolkit-cta-en-2" class="tw-button button-red" href="https://www.talkwalker.com/social-media-analytics-search?">Kickstart your Social Media Monitoring</a></p>
+</li>
+</ul>
+                
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div class="tw-block " id="block1380">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-6  ">
+                                     
+                        <a href="https://www.talkwalker.com/alerts">
+                                        <img src="#" class="lazy" title="" alt="Social media monitoring using Talkwalker Alerts to follow your favorite topics on the internet" data-src="https://www.talkwalker.com/images/landing/free-tools/step-3-bigger.gif">
+                     
+                        </a>
+                                                </div>
+            <div class="col-sm-6">
+
+                <h3 class="heading-pink"></h3>
+
+                <p><span style="font-size: x-large; background-color: transparent; color: #212121; white-space: pre-wrap;"><strong>Turbo-charge your SEO by finding backlink opportunities you didn&rsquo;t even know about ... for FREE!</strong></span></p>
+<p dir="ltr">Find a never-ending list of backlink opportunities and have them delivered right to your inbox!</p>
+<ul class="tw-list">
+<li dir="ltr">
+<p dir="ltr">Boost your SEO by knowing who is talking about you and when to reach out to them.</p>
+</li>
+<li dir="ltr">
+<p dir="ltr">Identify emerging influencers with a social media tracker that actually gets the job done and capitalize on their growing fanbase.</p>
+</li>
+<li dir="ltr">
+<p dir="ltr">Monitor and keep track of how your keywords evolve on the internet and shape your content accordingly.</p>
+<p dir="ltr">&nbsp;</p>
+<p id="alerts-box-1" style="text-align:center;"><a id="free-toolkit-cta-en-3" class="tw-button button-red" href="https://www.talkwalker.com/alerts">Try Talkwalker Alerts</a></p>
+</li>
+</ul>
+                
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="tw-block " id="block1374">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-sm-6 col-sm-push-6  ">
+
+                                     
+                        <a href="https://www.talkwalker.com/alerts">
+                                        <img src="#" class="lazy" title="" alt="Monitor your competitor&#039;s social presence with our free social search." data-src="https://www.talkwalker.com/images/landing/free-tools/step-4.gif">
+                     
+                        </a>
+                                    
+            </div>
+
+            <div class="col-sm-6 col-sm-pull-6">
+
+                <h3 class="heading-greeny-blue"></h3>
+
+                <p><span style="font-size: x-large;"><strong>Get ahead of the competition by keeping a close eye on them with our free social media tracker&nbsp;</strong></span></p>
+<p>Ever wanted to know exactly what the competition has been getting up to? Well now you can.</p>
+<ul class="tw-list">
+<li dir="ltr">
+<p dir="ltr">Know everything about your competition across the internet &ndash; the good, bad and the ugly</p>
+</li>
+<li dir="ltr">
+<p dir="ltr">Manage and monitor your brand reputation by taking timely action &ndash; before your competition can</p>
+<p dir="ltr">&nbsp;</p>
+<p id="alerts-box-1" style="text-align:center;"><a id="-free-toolkit-cta-en-4" class="tw-button button-red" href="https://www.talkwalker.com/alerts">Try Talkwalker Alerts</a></p>
+</li>
+</ul>
+                
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div class="tw-block block-nospace-bottom" id="block14">
+    <div class="tw-client-logos">
+        <div class="container-fluid">
+            <div class="logos-list">
+                <div class="logo" id="panel1810">
+    <img src="#" class="lazy" title="" alt="Monitor your competitor&#039;s social presence with our free social search." data-src="https://www.talkwalker.com/images/brands-logo/ritter-small.png">
+</div>
+<div class="logo" id="panel1809">
+    <img src="#" class="lazy" title="" alt="Monitor your competitor&#039;s social presence with our free social search." data-src="https://www.talkwalker.com/images/brands-logo/adidas-small.png">
+</div>
+<div class="logo" id="panel1806">
+    <img src="#" class="lazy" title="" alt="Monitor your competitor&#039;s social presence with our free social search." data-src="https://www.talkwalker.com/images/logos/gloskin.jpg">
+</div>
+<div class="logo" id="panel1255">
+    <img src="#" class="lazy" title="" alt="Monitor your competitor&#039;s social presence with our free social search." data-src="https://www.talkwalker.com/images/logos/yves-rocher-grey.png">
+</div>
+<div class="logo" id="panel1253">
+    <img src="#" class="lazy" title="" alt="Monitor your competitor&#039;s social presence with our free social search." data-src="https://www.talkwalker.com/images/logos/us-bank.png">
+</div>
+<div class="logo" id="panel1252">
+    <img src="#" class="lazy" title="" alt="Monitor your competitor&#039;s social presence with our free social search." data-src="https://www.talkwalker.com/images/logos/docler-holding.png">
+</div>
+<div class="logo" id="panel1210">
+    <img src="#" class="lazy" title="" alt="Monitor your competitor&#039;s social presence with our free social search." data-src="https://www.talkwalker.com/images/brands-logo/uniper.png">
+</div>
+<div class="logo" id="panel1208">
+    <img src="#" class="lazy" title="" alt="Monitor your competitor&#039;s social presence with our free social search." data-src="https://www.talkwalker.com/images/brands-logo/golin.png">
+</div>
+<div class="logo" id="panel1191">
+    <img src="#" class="lazy" title="" alt="Monitor your competitor&#039;s social presence with our free social search." data-src="https://www.talkwalker.com/images/brands-logo/credit-agricole.png">
+</div>
+<div class="logo" id="panel1145">
+    <img src="#" class="lazy" title="" alt="Monitor your competitor&#039;s social presence with our free social search." data-src="https://www.talkwalker.com/images/brands-logo/restoration-hardware.png">
+</div>
+<div class="logo" id="panel1142">
+    <img src="#" class="lazy" title="" alt="Monitor your competitor&#039;s social presence with our free social search." data-src="https://www.talkwalker.com/images/brands-logo/burson-marsteller.png">
+</div>
+<div class="logo" id="panel979">
+    <img src="#" class="lazy" title="" alt="Monitor your competitor&#039;s social presence with our free social search." data-src="https://www.talkwalker.com/images/homepage/quotes/atos-1.png">
+</div>
+<div class="logo" id="panel874">
+    <img src="#" class="lazy" title="" alt="Monitor your competitor&#039;s social presence with our free social search." data-src="https://www.talkwalker.com/images/brands-logo/accorhotels.png">
+</div>
+<div class="logo" id="panel626">
+    <img src="#" class="lazy" title="" alt="Monitor your competitor&#039;s social presence with our free social search." data-src="https://www.talkwalker.com/images/brands-logo/publicis.png">
+</div>
+<div class="logo" id="panel625">
+    <img src="#" class="lazy" title="" alt="Monitor your competitor&#039;s social presence with our free social search." data-src="https://www.talkwalker.com/images/brands-logo/ogilvy.png">
+</div>
+<div class="logo" id="panel574">
+    <img src="#" class="lazy" title="" alt="Monitor your competitor&#039;s social presence with our free social search." data-src="https://www.talkwalker.com/images/brands-logo/merck.png">
+</div>
+<div class="logo" id="panel572">
+    <img src="#" class="lazy" title="" alt="Monitor your competitor&#039;s social presence with our free social search." data-src="https://www.talkwalker.com/images/brands-logo/lecodellastampa.png">
+</div>
+<div class="logo" id="panel571">
+    <img src="#" class="lazy" title="" alt="Monitor your competitor&#039;s social presence with our free social search." data-src="https://www.talkwalker.com/images/brands-logo/wunderman1.png">
+</div>
+<div class="logo" id="panel13">
+    <img src="#" class="lazy" title="" alt="Monitor your competitor&#039;s social presence with our free social search." data-src="https://www.talkwalker.com/images/brands-logo/labeyrie.png">
+</div>
+<div class="logo" id="panel11">
+    <img src="#" class="lazy" title="" alt="Monitor your competitor&#039;s social presence with our free social search." data-src="https://www.talkwalker.com/images/logos/methodist.jpg">
+</div>
+<div class="logo" id="panel10">
+    <img src="#" class="lazy" title="" alt="Monitor your competitor&#039;s social presence with our free social search." data-src="https://www.talkwalker.com/images/brands-logo/caffeina.png">
+</div>
+
+            </div>
+        </div>
+    </div>
+</div><div class="tw-block block-nospace-top block-nospace-bottom" id="block1582">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12">
+
+                
+                <p><strong>&nbsp;Don't take our word for it to - check out what they have to say!</strong></p>
+<ul class="tw-list">
+<li><a href="https://blog.hootsuite.com/social-media-analytics/">Hootsuite&nbsp;<span style="white-space: pre;">Blog</span></a>&nbsp; &nbsp;</li>
+<li><a href="https://www.export.gov/article?id=Useful-eCommerce-Website-Tools">International Trade Administration (US Dept of Commerce)</a></li>
+</ul>
+<p><strong><br /></strong></p>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</div>
+
+
+
+    <div class="tw-footer">
+    <div class="footer-links">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+        <div class="row">
+            <div class="col-lg-12 col-md-6 col-sm-6 col-xs-6 footer-col ">
+                <a href="https://www.talkwalker.com/products-old" class="col-title" >Products</a>
+                                                                                <a href="https://www.talkwalker.com/products-old" class="col-link" >Analytics</a>
+                                            <a href="https://www.talkwalker.com/social-media-listening" class="col-link" >Social&nbsp;Listening</a>
+                                            <a href="https://www.talkwalker.com/social-media-analytics" class="col-link" >Social&nbsp;Media&nbsp;Analytics</a>
+                                            <a href="https://www.talkwalker.com/social-media-reporting" class="col-link" >Reporting</a>
+                                            <a href="https://www.talkwalker.com/social-intelligence" class="col-link" >Action</a>
+                                            <a href="https://www.talkwalker.com/influencer-one" class="col-link" >Influencer&nbsp;One</a>
+                                            <a href="https://www.talkwalker.com/quick-search-signup" class="col-link" >Quick&nbsp;Search</a>
+                                            <a href="https://www.talkwalker.com/command-center-old" class="col-link" >Command&nbsp;Center</a>
+                                            <a href="https://www.talkwalker.com/artificial-intelligence-old" class="col-link" >Talkwalker&nbsp;AI&nbsp;Engine</a>
+                                                </div>
+        </div>
+    </div>
+  
+    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+        <div class="row">
+            <div class="col-lg-12 col-md-6 col-sm-6 col-xs-6 footer-col ">
+                <a  class="col-title" >Solutions</a>
+                                                                                <a href="https://www.talkwalker.com/solutions/pr-communication" class="col-link" >PR/Communication</a>
+                                            <a href="https://www.talkwalker.com/solutions/digital-marketing" class="col-link" >Digital&nbsp;Marketing</a>
+                                            <a href="https://www.talkwalker.com/solutions/consumer-insights" class="col-link" >Consumer&nbsp;Insights</a>
+                                            <a href="https://www.talkwalker.com/solutions/agencies" class="col-link" >Agencies</a>
+                                            <a href="https://www.talkwalker.com/why-talkwalker" class="col-link" >Why&nbsp;Talkwalker</a>
+                                                </div>
+        </div>
+    </div>
+  
+    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+        <div class="row">
+            <div class="col-lg-12 col-md-6 col-sm-6 col-xs-6 footer-col ">
+                <a href="https://www.talkwalker.com/resources" class="col-title" >Academy</a>
+                                                                                <a href="https://www.talkwalker.com/publications" class="col-link" >Publications</a>
+                                            <a href="https://www.talkwalker.com/blogs" class="col-link" >Blog</a>
+                                            <a href="https://www.talkwalker.com/webinars" class="col-link" >Webinars</a>
+                                            <a href="https://www.talkwalker.com/industry-research" class="col-link" >Industry&nbsp;Research</a>
+                                            <a href="https://www.talkwalker.com/live-social-media-insights" class="col-link" >Live&nbsp;Insights</a>
+                                            <a href="https://www.talkwalker.com/digital-excellence-center" class="col-link" >Digital&nbsp;Excellence&nbsp;Center</a>
+                                            <a href="https://apidocs.talkwalker.com/" class="col-link" >API&nbsp;User&nbsp;Manual</a>
+                                            <a href="https://talkwalker.digitalexcellencecenter.com" class="col-link" >User&nbsp;Manual</a>
+                                                </div>
+        </div>
+    </div>
+  
+    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+        <div class="row">
+            <div class="col-lg-12 col-md-6 col-sm-6 col-xs-6 footer-col ">
+                <a href="https://www.talkwalker.com/pricing" class="col-title" >Pricing</a>
+                                                                                <a href="https://www.talkwalker.com/pricing" class="col-link" >Plans</a>
+                                                                                <a href="https://www.talkwalker.com/life-at-talkwalker" class="col-title" style="margin-top: 25px" >About&nbsp;Us</a>
+                                                                <a href="https://www.talkwalker.com/team" class="col-link" >Team</a>
+                                            <a href="https://www.talkwalker.com/news" class="col-link" >In&nbsp;the&nbsp;News</a>
+                                            <a href="https://www.talkwalker.com/careers" class="col-link" >Careers</a>
+                                            <a href="https://www.talkwalker.com/contact-us" class="col-link" >Contact&nbsp;Us</a>
+                                            <a href="https://www.talkwalker.com/reviews" class="col-link" >Reviews</a>
+                                                </div>
+        </div>
+    </div>
+  
+    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+        <div class="row">
+            <div class="col-lg-12 col-md-6 col-sm-6 col-xs-6 footer-col  col-lg-offset-1 ">
+                <a href="https://www.talkwalker.com/blogs" class="col-title" >Must&nbsp;read</a>
+                                                                                <a href="https://www.talkwalker.com/blog/social-media-listening-guide" class="col-link" >Social&nbsp;Media&nbsp;Listening&nbsp;Guide</a>
+                                            <a href="https://www.talkwalker.com/blog/glossary-of-social-media-terms" class="col-link" >Glossary&nbsp;Of&nbsp;Social&nbsp;Media&nbsp;Terms</a>
+                                            <a href="https://www.talkwalker.com/blog/digital-footprint" class="col-link" >Digital&nbsp;Footprint&nbsp;Guide</a>
+                                            <a href="https://www.talkwalker.com/blog/how-to-track-social-mentions-101" class="col-link" >How&nbsp;to&nbsp;Track&nbsp;Social&nbsp;Mentions</a>
+                                            <a href="https://www.talkwalker.com/blog/measure-share-voice" class="col-link" >How&nbsp;to&nbsp;Measure&nbsp;Share&nbsp;of&nbsp;Voice</a>
+                                            <a href="https://www.talkwalker.com/blog/definitive-guide-pr-measurement" class="col-link" >Definitive&nbsp;guide&nbsp;to&nbsp;PR&nbsp;measurement</a>
+                                            <a href="https://www.talkwalker.com/blog/what-is-influencer-marketing-and-why-your-brand-needs-it" class="col-link" >Influencer&nbsp;Marketing&nbsp;Guide</a>
+                                            <a href="https://www.talkwalker.com/blog/social-media-measurement-guide-proving-impact-of-marketing-strategy" class="col-link" >Social&nbsp;Media&nbsp;Measurement&nbsp;Guide</a>
+                                            <a href="https://www.talkwalker.com/blog/consumer-intelligence-guide" class="col-link" >Consumer&nbsp;Intelligence&nbsp;Guide</a>
+                                            <a href="https://www.talkwalker.com/blog/best-social-media-analytics-tools" class="col-link" >Social&nbsp;Media&nbsp;Analytics&nbsp;Tools</a>
+                                                </div>
+        </div>
+    </div>
+                        
+                        
+                        <!--<div class="col-lg-2 col-lg-offset-1 col-md-4 col-sm-6 col-xs-12">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-6 col-sm-6 col-xs-6 footer-col">
+                                    <a href="https://www.talkwalker.com/blogs" class="col-title">Must&nbsp;read</a>
+                                    <a href="https://www.talkwalker.com/blog/social-media-analytics-guide" class="col-link">Social&nbsp;Media&nbsp;Analytics&nbsp;Guide</a>
+                                    <a href="https://www.talkwalker.com/blog/social-media-listening-guide" class="col-link">Social&nbsp;Media&nbsp;Listening&nbsp;Guide</a>
+                                    <a href="https://www.talkwalker.com/blog/glossary-of-social-media-terms" class="col-link">Glossary&nbsp;Of&nbsp;Social&nbsp;Media&nbsp;Terms</a>
+                                    <a href="https://www.talkwalker.com/blog/digital-footprint" class="col-link">Digital&nbsp;Footprint&nbsp;Guide</a>
+                                    <a href="https://www.talkwalker.com/blog/how-to-track-social-mentions-101" class="col-link">How&nbsp;to&nbsp;Track&nbsp;Social&nbsp;Mentions</a>
+                                    <a href="https://www.talkwalker.com/blog/measure-share-voice" class="col-link">How&nbsp;to&nbsp;Measure&nbsp;Share&nbsp;of&nbsp;Voice</a>
+                                    <a href="https://www.talkwalker.com/blog/definitive-guide-pr-measurement" class="col-link">Definitive&nbsp;guide&nbsp;to&nbsp;PR&nbsp;measurement</a>
+                                    <a href="https://www.talkwalker.com/blog/what-is-influencer-marketing-and-why-your-brand-needs-it" class="col-link">Influencer&nbsp;Marketing&nbsp;Guide</a>
+                                    <a href="https://www.talkwalker.com/blog/social-media-measurement-guide-proving-impact-of-marketing-strategy" class="col-link">Social&nbsp;Media&nbsp;Measurement&nbsp;Guide</a>
+                                    <a href="https://www.talkwalker.com/blog/consumer-intelligence-guide" class="col-link">Consumer&nbsp;Intelligence&nbsp;Guide</a>
+                                    <a href="https://www.talkwalker.com/blog/best-social-media-analytics-tools" class="col-link">Social&nbsp;Media&nbsp;Analytics&nbsp;Tools</a>
+                                </div>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-social">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-7 col-copyright">Copyright © 2020 Talkwalker Inc. All Rights Reserved     
+                                        | <a href="https://www.talkwalker.com/impressum">Impressum</a>
+                                        | <a href="https://www.talkwalker.com/author-privacy-policy">Author Privacy Policy</a>
+                                        | <a href="https://www.talkwalker.com/privacy-policy">Privacy Policy</a>
+                                        | <a href="https://www.talkwalker.com/legal">Terms of service</a>
+                       
+                                        <br />                    
+                    Europe - Talkwalker Sarl: <a href="https://www.talkwalker.com/contact-us">16, Avenue Monterey L-2163 Luxembourg</a>
+                    <br />
+                    US - Talkwalker Inc: <a href="https://www.talkwalker.com/contact-us">485 Lexington Avenue, Floor 26th, NY, NY 10017</a>
+                    <br />
+                    APAC - Talkwalker Pte. Ltd: <a href="https://www.talkwalker.com/contact-us">8 Cross Street #18-110, Manulife Tower, Singapore 048424</a>
+                </div>
+                <div class="col-lg-4 col-md-5 col-buttons">
+                   <a target="_blank" href="https://www.facebook.com/talkwalker" class="social-button">
+                        <img src="https://www.talkwalker.com/assets/frontend/media/social/facebook.png" alt="Facebook">
+                    </a>
+                    <a target="_blank" href="https://twitter.com/talkwalker" class="social-button">
+                        <img src="https://www.talkwalker.com/assets/frontend/media/social/twitter.png" alt="Twitter">
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/company/talkwalker" class="social-button">
+                        <img src="https://www.talkwalker.com/assets/frontend/media/social/linkedin.png" alt="Linkedin">
+                    </a>                    
+                    <a target="_blank" href="https://www.youtube.com/user/TalkwalkerAnalytics" class="social-button">
+                        <img src="https://www.talkwalker.com/assets/frontend/media/social/youtube.png" alt="Youtube">
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/talkwalker/" class="social-button">
+                        <img src="https://www.talkwalker.com/assets/frontend/media/social/instagram.png" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <form>
+            <input type="hidden" id="path" value="https://ajax.talkwalker.com" />
+            <input type="hidden" id="locale" value="en" />
+            <input type="hidden" id="live_chat" value="1" />
+        </form>
+
+                        
+        
+        <div id="cookie-bar">
+            We use cookies to enhance your experience when visiting our website. Our cookies policy describes how we use cookies and how to disable them.
+            <a id="cookie-agree" class="btn btn-xs btn-primary" href="#">OK</a> &nbsp;&nbsp;
+            <a href="/cookie-policy">
+                <span style="text-decoration:underline;">Learn more</span>
+            </a>
+        </div>
+
+            </body>
+</html>

@@ -1,0 +1,313 @@
+/*
+* Enterprise
+* I have split this out to make it easier to itegrate back into your main stylesheets
+*/
+
+.tw-hero.enterprise {
+	overflow: hidden;
+}
+
+.tw-hero.enterprise .tw-hero-video {
+	position: relative;
+	top: auto;
+	left: auto;
+	padding: 50px 20px 120px;
+	width: auto;
+	height: auto;
+}
+
+.tw-hero.enterprise .tw-hero-video video {
+	position: relative;
+	top: auto;
+	left: auto;
+	width: 100%;
+	height: auto;
+	min-width: 100%;
+	min-height: auto;
+	-webkit-transform: translate(0%, 0%);
+	transform: translate(0%, 0%);
+}
+
+.tw-hero.enterprise .tw-hero-video .tw-hero-video-bg {
+	display: none;
+	width: 481px;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-49.3%, -56%);
+	transform: translate(-49.3%, -56%);
+	z-index: -1;
+}
+
+@media (max-width: 941px){
+	.tw-hero.enterprise {
+		height: auto;
+	}
+	.tw-hero.enterprise .tw-hero-content {
+		position: relative;
+		top: auto;
+		left: auto;
+	}
+}
+
+@media (min-width: 768px){
+	.tw-hero.enterprise .tw-hero-video {
+		text-align: center;
+		padding: 130px 0 180px;
+	}
+	.tw-hero.enterprise .tw-hero-video video {
+		width: 330px;
+		min-width: auto;
+	}
+	.tw-hero.enterprise .tw-hero-video .tw-hero-video-bg {
+		display: block;
+	}
+}
+
+@media (min-width: 940px){
+	.tw-hero.enterprise .tw-hero-video {
+		position: absolute;
+		top: 50%;
+		right: 50px;
+		-webkit-transform: translateY(-40%);
+		transform: translateY(-40%);
+		padding: 0;
+	}
+	.tw-hero.enterprise .tw-hero-video video {
+		width: 360px;
+	}
+	.tw-hero.enterprise .tw-hero-video .tw-hero-video-bg {
+		width: 528px;
+		-webkit-transform: translate(-49.3%, -49.8%);
+		transform: translate(-49.3%, -49.8%);
+	}
+}
+
+@media (min-width: 1200px){
+	.tw-hero.enterprise .tw-hero-video {
+		right: 100px;
+	}
+	.tw-hero.enterprise .tw-hero-video video {
+		width: 400px;
+	}
+	.tw-hero.enterprise .tw-hero-video .tw-hero-video-bg {
+		width: 586px;
+	}
+}
+
+@media (min-width: 1440px){
+	.tw-hero.enterprise .tw-hero-video {
+		right: 200px;
+	}
+	.tw-hero.enterprise .tw-hero-video video {
+		width: 450px;
+	}
+	.tw-hero.enterprise .tw-hero-video .tw-hero-video-bg {
+		width: 660px;
+	}
+}
+
+@media (min-width: 1800px){
+	.tw-hero.enterprise .tw-hero-video {
+		right: 250px;
+	}
+}
+
+@media (min-width: 1920px){
+	.tw-hero.enterprise .tw-hero-video {
+		right: 300px;
+	}
+}
+
+
+
+
+
+/* enterprise carousel */
+.tw-enterprise-carousel .container {
+	width: 100%;
+	max-width: 630px;
+	padding: 0 20px;
+}
+
+.tw-enterprise-carousel .container .row {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.tw-enterprise-carousel .item {
+	text-align: center;
+}
+
+.tw-enterprise-carousel h2 {
+	text-align: center;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tw-enterprise-carousel h4 {
+	display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+	line-height: 30px;
+	margin: 15px 0;
+}
+
+.tw-enterprise-carousel h4 span,
+.tw-enterprise-carousel img {
+	display: inline-block;
+}
+
+.tw-enterprise-carousel h4 span {
+	margin-right: 5px;
+	line-height: 30px;
+	vertical-align: middle;
+}
+
+.tw-block.tw-enterprise-carousel img,
+.tw-block.tw-enterprise-carousel IMG {
+	width: 30px;
+	height: auto;
+	margin-left: 15px;
+}
+
+.tw-block.tw-enterprise-carousel .carousel-indicators {
+	display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+	width: 100%;
+	position: relative;
+	bottom: auto;
+	left: auto;
+	margin: 30px 0 0;
+	padding: 0;
+	margin-left: 0;
+	text-align: center;
+}
+
+.tw-block.tw-enterprise-carousel .carousel-indicators li {
+	display: inline-block;
+	width: 50px;
+	height: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	background: #fafafa;
+	box-shadow: inset 2px 2px 4px rgba(33, 57, 119, 0.2);
+	padding: 0;
+	margin: 0 5px;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	list-style: none;
+}
+.tw-block.tw-enterprise-carousel .carousel-indicators li:before {
+	display: none;
+}
+
+.tw-block.tw-enterprise-carousel .carousel-indicators li.active {
+	background: #002D72;
+	box-shadow: none;
+}
+
+
+/* custom indicator titles */
+.tw-block.tw-enterprise-carousel .carousel-title-links {
+	display: block;
+	width: 100%;
+	margin: 0 auto 40px;
+	padding: 0;
+	text-align: left;
+}
+
+.tw-block.tw-enterprise-carousel .carousel-title-links li {
+	display: block;
+	list-style: none;
+	background: transparent;
+	width: 100%;
+	height: auto;
+	text-indent: 0px;
+	padding: 0;
+	margin: 0;
+	box-shadow: none;
+	border: none;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	opacity: 0.3;
+	-webkit-transition: opacity 0.3s ease;
+	transition: opacity 0.3s ease;
+	cursor: pointer;
+}
+
+.tw-block.tw-enterprise-carousel .carousel-title-links li:before {
+	display: none;
+}
+
+.tw-block.tw-enterprise-carousel .carousel-title-links li img {
+	opacity: 0.5;
+}
+
+.tw-block.tw-enterprise-carousel .carousel-title-links li.active {
+	opacity: 1;
+}
+
+.tw-block.tw-enterprise-carousel .carousel-title-links li.active img {
+	opacity: 1;
+}
+
+.tw-block.tw-enterprise-carousel .carousel-title-links li:before {
+	display: none;
+}
+
+
+@media(min-width: 768px){
+	.tw-block.tw-enterprise-carousel .carousel-indicators li {
+		width: 60px;
+		height: 7px;
+		-webkit-border-radius: 7px;
+		border-radius: 7px;
+		margin: 0 10px;
+	}
+}
+
+@media(min-width: 1024px){
+	.tw-enterprise-carousel .container .row {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.tw-enterprise-carousel h4 {
+		margin: 35px 0;
+		line-height: 40px;
+		font-size: 30px;
+	}
+	.tw-enterprise-carousel h4 span {
+		line-height: 40px;
+		margin-right: 10px;
+	}
+	.tw-block.tw-enterprise-carousel img,
+	.tw-block.tw-enterprise-carousel IMG {
+		width: 40px;
+		margin-left: 20px;
+	}
+	.tw-block.tw-enterprise-carousel .carousel-title-links {
+		margin: 0 auto;
+	}
+}
+
+@media(min-width: 1040px){
+	.tw-enterprise-carousel .container {
+		max-width: 1050px;
+	}
+	.tw-enterprise-carousel .item {
+		text-align: left;
+	}
+}
+
+@media(min-width: 1440px){
+	.tw-enterprise-carousel h2 {
+		max-width: 100%;
+	}
+}

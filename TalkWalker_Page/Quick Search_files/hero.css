@@ -1,0 +1,151 @@
+/*
+* Hero
+* I have split this out to make it easier to itegrate back into your main stylesheets
+*/
+
+.tw-hero {
+	width: 100%;
+	height: 85vh;
+	min-height: 530px;
+	background: linear-gradient(184.52deg, #142B65 160px, #941537 219.96%);
+	overflow: hidden;
+	position: relative;
+}
+
+.tw-hero-indicator {
+	display: block;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 50%;
+	bottom: 45px;
+	margin-left: -20px;
+	cursor: pointer;
+	z-index: 2;
+	border: none;
+}
+
+.tw-hero-indicator:hover {
+	border: none;
+}
+
+.tw-hero-indicator img {
+	width: 40px;
+	height: 40px;
+	margin: 0;
+	pointer-events: none;
+}
+
+.tw-hero .tw-hero-bg {
+	width: 100%;
+	height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: right top;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	pointer-events: none;
+}
+
+.tw-hero .tw-hero-content {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+	z-index: 1;
+	padding: 120px 20px 0;
+}
+
+.tw-hero .tw-hero-video {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	pointer-events: none;
+}
+
+.tw-hero .tw-hero-video video {
+	width: auto;
+	height: auto;
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	pointer-events: none;
+}
+
+.tw-hero h1,
+.tw-hero h2 {
+	color: #fff;
+}
+
+.tw-hero h1 {
+	margin-bottom: 0px;
+	max-width: 475px;
+}
+
+.tw-hero h2 {
+	margin-bottom: 40px;
+	max-width: 460px;
+}
+
+.tw-hero .tw-button {
+	margin: 0;
+}
+
+
+@media(max-width: 350px){
+	.tw-hero {
+		height: 80vh;
+	}
+	.tw-hero-indicator {
+		display: none;
+	}
+}
+
+@media(min-width: 768px){
+	.tw-hero-indicator {
+		bottom: 80px;
+	}
+	.tw-hero .tw-hero-content {
+		padding: 150px 20px 0;
+	}
+}
+
+@media(min-width: 1024px){
+	.tw-hero {
+		min-height: 780px;
+	}
+}
+
+@media(min-width: 1250px){
+	.tw-hero .tw-hero-content {
+		padding: 220px 120px 0;
+	}
+}
+
+@media(min-width: 1440px){
+	.tw-hero-indicator {
+		bottom: 100px;
+	}
+	.tw-hero h2 {
+		font-size: 30px;
+		line-height: 34px;
+	}
+}

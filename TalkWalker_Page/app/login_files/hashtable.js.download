@@ -1,0 +1,9 @@
+define(['exports'],function(exports){exports.default= {
+    "minify/core": "1a5744c0918a74b084b1b589cbd137b492616565",
+    "minify/modules": "646882d564e1a0c61d08b7af2e7d1ce33edd0cf3",
+    "minify/entry_point": "3b97617b853a31549359321558d7b9fab265dca5",
+    "minify/third_party_custom": "e4c02a8f0d4cbb283062d5a19a2ae9d9798c6413",
+    "minify/third_party": "cd0e25b388d0d2674d70f4d4eb83347ee82febf4",
+    "minify/core.es5": "22e8d448872a3200eff5551a993ad5af0c95e9c4",
+    "minify/modules.es5": "2425e5ee815ff57f3b4a11621d588bac47bb02ff"
+}})

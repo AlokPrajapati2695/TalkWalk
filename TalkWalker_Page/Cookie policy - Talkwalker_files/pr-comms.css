@@ -1,0 +1,24 @@
+/*
+* PR Comms
+* I have split this out to make it easier to itegrate back into your main stylesheets
+*/
+
+
+@media (max-width: 1024px){
+	.tw-hero.pr-comms h1 {
+		max-width: 400px;
+	}
+	.tw-hero.pr-comms h2 {
+		max-width: 360px;
+	}
+}
+
+
+@media (min-width: 1600px){
+	.col-xl-5 {
+		width: 41.66666667%;
+	}
+	.col-xl-offset-1 {
+		margin-left: 8.33333333%;
+	}
+}
